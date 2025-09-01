@@ -1,0 +1,43 @@
+
+{
+  "hackathons": [
+    {
+      "id": 1,
+      "title": "Hackathon Programme Karah 2025",
+      "description": "Relevez le défi de concevoir un logo et trois affiches de recrutement pour le Programme Karah, visant à mobiliser 1 000 jeunes par an (18-30 ans, niveau minimum 3ème ou BAC) dans 20 régions de Côte d'Ivoire pour des enquêtes terrain et de la cartographie. Ce concours national cherche à promouvoir la formation professionnelle et l’impact sur le développement agricole et territorial à travers des visuels percutants.",
+      "date": "31 Juillet 2025",
+      "deadline": "2025-07-30T23:59:59Z",
+      "location": "En ligne",
+      "image": "images/md.webp",
+      "prizes": "100 000 FCFA pour le gagnant",
+      "theme": "Mobilisation des jeunes pour le développement territorial",
+      "deliverables": [
+        "Un logo pour le Programme Karah.",
+        "Trois affiches de recrutement mettant en avant la formation professionnelle et l’impact sur le développement territorial."
+      ],
+      "design_guidelines": "Les designs doivent être modernes, adaptés aux réseaux sociaux (format carré 1080x1080px) et à l’impression (A4). Privilégiez un style épuré avec des couleurs alignées sur l’identité visuelle d’Agriforland (ex. : vert #4CAF50, blanc, tons naturels).",
+      "evaluation_criteria": "Créativité, clarté du message, respect du thème, et attrait visuel pour un public jeune.",
+      "submission_process": "Soumettez vos fichiers (PDF, PNG, ou JPEG) à assistance@agriforland.com avant la date limite, avec votre nom et le titre du hackathon en objet."
+    },
+    {
+      "id": 2,
+      "title": "Hackathon Agriforland Academy 2025",
+      "description": "Participez à une compétition d’excellence pour concevoir un logo et huit affiches visant à promouvoir la plateforme Agriforland Academy, dédiée aux professionnels du secteur agro-industriel. Ce concours cherche à valoriser des formations certifiantes ISO et à attirer un public professionnel grâce à des visuels percutants. Montrez votre créativité pour positionner Agriforland Academy comme leader en formation professionnelle.",
+      "date": "31 Juillet 2025",
+      "deadline": "2025-07-30T23:59:59Z",
+      "location": "En ligne",
+      "image": "images/md.webp",
+      "prizes": "100 000 FCFA pour le gagnant",
+      "theme": "Promotion de la formation professionnelle en ligne",
+      "deliverables": [
+        "Un logo pour la plateforme Agriforland Academy.",
+        "Deux affiches générales pour le lancement de la plateforme.",
+        "Une affiche par formation : ISO 9001 (Gestion de la qualité), ISO 14001 (Gestion environnementale), ISO 21502 (Gestion de projet), ISO 22000 (Sécurité alimentaire), ISO 45001 (Santé et sécurité).",
+        "Une affiche pour une promotion de -50 % sur les formations."
+      ],
+      "design_guidelines": "Les designs doivent être modernes, professionnels, adaptés aux réseaux sociaux (1080x1080px) et à l’impression (A4). Utilisez des couleurs alignées sur l’identité visuelle d’Agriforland (ex. : vert #a9cf46, blanc, bleu) pour un rendu sophistiqué.",
+      "evaluation_criteria": "Créativité, clarté, attrait pour un public professionnel, et cohérence avec les objectifs de la plateforme.",
+      "submission_process": "Soumettez vos fichiers (PDF, PNG, ou JPEG) à assistance@agriforland.com avant la date limite, avec votre nom et le titre du hackathon en objet."
+    }
+  ]
+}

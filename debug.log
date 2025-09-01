@@ -1,0 +1,7 @@
+=== Début consultant_submit.php ===
+Sortie indésirable de db.php: <!-- db.php -->
+ 
+
+
+Candidature enregistrée avec succès pour: ttest@example.com
+Réponse JSON: {"success":true,"message":"Candidature enregistr\u00e9e avec succ\u00e8s !","errors":[]}

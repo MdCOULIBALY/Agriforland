@@ -1,0 +1,169 @@
+{
+  "ranch_data": [
+    {
+      "id": 1,
+      "type": "animal",
+      "name": "Bella la Holstein",
+      "category": "Bovin",
+      "subcategory": "Vache laitière",
+      "age": 4,
+      "weight": 580,
+      "breed": "Holstein",
+      "color": "Noir et blanc",
+      "location": "Pâturage Nord - Zone A",
+      "description": "Bella est notre vache laitière la plus productive du ranch. Elle possède un tempérament doux et sociable, adorant les interactions avec nos visiteurs. Sa production laitière exceptionnelle fait d'elle l'une des stars de notre troupeau.",
+      "characteristics": {
+        "gender": "Femelle",
+        "birth_date": "2020-03-15",
+        "production": "28L/jour",
+        "health_status": "Excellente",
+        "reproduction": "3 veaux"
+      },
+      "images": [
+        "cache/ranch/ranch.webp",
+        "cache/ranch/ranch.webp"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "animal", 
+      "name": "Rex le Taureau",
+      "category": "Bovin",
+      "subcategory": "Taureau reproducteur",
+      "age": 6,
+      "weight": 950,
+      "breed": "Charolais",
+      "color": "Blanc crème",
+      "location": "Pâturage Sud - Enclos Premium",
+      "description": "Rex est notre magnifique taureau reproducteur Charolais. Imposant mais d'un tempérament calme, il est le patriarche respecté de notre troupeau bovin. Sa lignée exceptionnelle garantit une descendance de qualité.",
+      "characteristics": {
+        "gender": "Mâle",
+        "birth_date": "2018-05-20",
+        "reproduction": "45 descendants",
+        "health_status": "Excellente",
+        "temperament": "Calme"
+      },
+      "images": [
+        "cache/ranch/ranch.webp",
+        "cache/ranch/ranch.webp"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "animal",
+      "name": "Luna la Jument",
+      "category": "Équin",
+      "subcategory": "Cheval de trait",
+      "age": 8,
+      "weight": 750,
+      "breed": "Percheron",
+      "color": "Gris pommelé",
+      "location": "Écurie Principale - Box 12",
+      "description": "Luna est notre magnifique jument Percheron, utilisée pour les travaux agricoles traditionnels et les balades éducatives. Son caractère exceptionnel et sa force impressionnante en font un pilier de notre exploitation.",
+      "characteristics": {
+        "gender": "Femelle",
+        "birth_date": "2016-09-10",
+        "training": "Trait et équitation",
+        "health_status": "Excellente",
+        "speciality": "Travaux des champs"
+      },
+      "images": [
+        "cache/ranch/ranch.webp",
+        "cache/ranch/ranch.webp"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "farm",
+      "name": "Ferme Biologique Nord",
+      "category": "Agriculture",
+      "subcategory": "Maraîchage biologique",
+      "surface": 12.5,
+      "established": 2018,
+      "location": "Secteur Nord - Parcelles 1-6",
+      "description": "Notre ferme biologique nord est dédiée à la production de légumes bio de haute qualité. Avec ses 12,5 hectares certifiés, elle approvisionne les marchés locaux en produits frais et savoureux, cultivés dans le respect de l'environnement.",
+      "characteristics": {
+        "certification": "Bio Ecocert",
+        "irrigation": "Goutte à goutte + récupération eau de pluie",
+        "soil_type": "Argilo-limoneux",
+        "annual_production": "45 tonnes",
+        "workers": "6 employés"
+      },
+      "images": [
+        "cache/ranch/ranch.webp",
+        "cache/ranch/ranch.webp"
+      ],
+      "crops": ["Tomates", "Courgettes", "Laitues", "Radis", "Carottes", "Épinards"]
+    },
+    {
+      "id": 5,
+      "type": "farm",
+      "name": "Exploitation Avicole Sud",
+      "category": "Élevage",
+      "subcategory": "Volailles en plein air",
+      "surface": 8.0,
+      "established": 2019,
+      "location": "Secteur Sud - Zone Avicole",
+      "description": "Notre exploitation avicole privilégie le bien-être animal avec un élevage en plein air. Les poules évoluent librement sur 8 hectares de prairies, garantissant des œufs et une viande de qualité exceptionnelle.",
+      "characteristics": {
+        "certification": "Label Rouge + Bio",
+        "capacity": "2000 poules pondeuses",
+        "housing": "Mobile + parcours extérieur",
+        "daily_production": "1800 œufs/jour",
+        "feed": "100% bio local"
+      },
+      "images": [
+        "cache/ranch/ranch.webp",
+        "cache/ranch/ranch.webp"
+      ],
+      "animals": ["Poules pondeuses", "Coqs", "Poules d'ornement", "Canards"]
+    },
+    {
+      "id": 6,
+      "type": "farm",
+      "name": "Vergers Agriforland",
+      "category": "Arboriculture",
+      "subcategory": "Fruits et noix biologiques",
+      "surface": 15.2,
+      "established": 2017,
+      "location": "Secteur Est - Coteaux",
+      "description": "Nos vergers s'étendent sur les coteaux ensoleillés du ranch. Cette exploitation fruitière bio produit une grande variété de fruits de saison et de noix, contribuant à la diversification de notre production agricole.",
+      "characteristics": {
+        "certification": "Agriculture Biologique",
+        "trees_count": "1200 arbres fruitiers",
+        "varieties": "25 variétés différentes",
+        "annual_harvest": "80 tonnes",
+        "processing": "Transformation sur site"
+      },
+      "images": [
+        "cache/ranch/ranch.webp",
+        "cache/ranch/ranch.webp"
+      ],
+      "products": ["Pommes", "Poires", "Prunes", "Noix", "Jus de fruits", "Confitures"]
+    },
+    {
+      "id": 7,
+      "type": "farm",
+      "name": "Station Aquaponique",
+      "category": "Aquaculture",
+      "subcategory": "Aquaponie innovante",
+      "surface": 2.8,
+      "established": 2021,
+      "location": "Secteur Ouest - Installations techniques",
+      "description": "Notre station aquaponique représente l'innovation au service de l'agriculture durable. Cette installation high-tech combine élevage de poissons et culture de légumes dans un écosystème circulaire révolutionnaire.",
+      "characteristics": {
+        "technology": "Système aquaponique automatisé",
+        "fish_capacity": "5000 poissons",
+        "plant_production": "3 tonnes/an légumes-feuilles",
+        "water_efficiency": "95% d'économie d'eau",
+        "automation": "Monitoring IoT complet"
+      },
+      "images": [
+        "cache/ranch/ranch.webp",
+        "cache/ranch/ranch.webp"
+      ],
+      "species": ["Tilapia", "Carpe", "Laitues", "Basilic", "Épinards", "Roquette"]
+    }
+  
+  ]
+}

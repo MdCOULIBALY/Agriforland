@@ -1,0 +1,32 @@
+[
+    {
+        "date": "2025-07-28 16:57:34",
+        "hackathon_id": 1,
+        "hackathon_title": "Hackathon Projet Karah 2025",
+        "nom": "COULIBALY",
+        "prenom": "tenena mohamed",
+        "email": "mdcoulibaly913@gmail.com",
+        "telephone": "+221771234567",
+        "portfolio": "https:\/\/drive.google.com\/drive\/folders\/18hjPfJHwEVvOW3mg2JoJjoOu-ezEqtqK?usp=drive_link"
+    },
+    {
+        "hackathon_id": 1,
+        "hackathon_title": "Hackathon Projet Karah 2025",
+        "nom": "COULIBALY",
+        "prenom": "tenena mohamed",
+        "email": "test@example.com",
+        "telephone": "0506064596",
+        "portfolio": "https:\/\/drive.google.com\/drive\/folders\/18hjPfJHwEVvOW3mg2JoJjoOu-ezEqtqK?usp=drive_link",
+        "date_inscription": "2025-07-28T17:08:44+00:00"
+    },
+    {
+        "hackathon_id": 1,
+        "hackathon_title": "Hackathon Projet Karah 2025",
+        "nom": "COULIBALY",
+        "prenom": "tenena mohamed",
+        "email": "edouardkouame5@gmail.com",
+        "telephone": "+221771234567",
+        "portfolio": "https:\/\/drive.google.com\/drive\/folders\/18hjPfJHwEVvOW3mg2JoJjoOu-ezEqtqK?usp=drive_link",
+        "date_inscription": "2025-07-28T18:27:39+00:00"
+    }
+]

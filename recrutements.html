@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="title">AGRIFORLAND SARL - Recrutements</title>
+  
+  <!-- Preconnect optimisé -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.tailwindcss.com">
+  <link rel="preconnect" href="https://unpkg.com">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link href="css/Style.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" defer></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZKKVQJJCYG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZKKVQJJCYG');
+  </script>
+</head>
+
+<body class="bg-[#f6ffde] text-black">
+<!-- Preloader -->
+<div id="preloader" class="fixed inset-0 bg-[#f6ffde] z-50 flex items-center justify-center">
+  <div class="animate-triangle w-24 h-24 sm:w-32 sm:h-32">
+    <img src="images/triangle-svgrepo-com.svg" loading="lazy" alt="Chargement..." class="w-full h-full object-contain triangle-img">
+  </div>
+</div>
+
+<header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-3 sm:px-4 py-3 flex items-center justify-between">
+        <img 
+            src="cache/logo-198x66-800.webp" 
+            srcset="
+                cache/logo-198x66-480.webp 480w, 
+                cache/logo-198x66-800.webp 800w, 
+                cache/logo-198x66-1200.webp 1200w
+            "
+            sizes="(max-width: 600px) 480px, (max-width: 1000px) 800px, 1200px"
+            alt="Logo Agriforland" 
+            loading="lazy" 
+            class="h-8 sm:h-10 md:h-12"
+        >
+        <!-- Menu Burger pour mobile -->
+        <button id="menu-toggle" class="md:hidden text-gray-700 focus:outline-none p-1" aria-label="Ouvrir le menu">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+                    viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+        </button>
+        <!-- Boutons (desktop) -->
+        <div class="hidden md:flex gap-3 items-center ml-auto">
+            <!-- Language Selector -->
+            <div class="relative inline-block text-left">
+                <select id="language-selector" class="block appearance-none bg-white border border-gray-300 hover:border-gray-500 px-2 py-1 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline text-sm">
+                    <option value="fr" data-icon="images/fr.webp">Français</option>
+                    <option value="en" data-icon="images/en.webp">English</option>
+                </select>
+                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2">
+                    <img id="language-icon" loading="lazy" src="images/fr.webp" alt="Language" class="h-4 w-4">
+                </div>
+            </div>
+            <a href="recrutement.html" class="bg-[#759916] text-white px-4 py-2 rounded-md hover:text-black hover:bg-[#ade126] transition text-sm whitespace-nowrap" data-i18n="join_us">
+                Nous Rejoindre
+            </a>
+            <a href="contact.html" class="border border-gray-500 px-4 py-2 rounded-md hover:text-black hover:bg-[#f6ffde] transition text-sm whitespace-nowrap" data-i18n="contact_us">
+                Nous Contacter
+            </a>
+        </div>
+    </div>
+
+    <!-- Navigation Desktop -->
+    <div class="border-t border-gray-100 bg-[#f6ffde] hidden md:block">
+        <nav class="max-w-7xl mx-auto px-4 py-3 flex justify-center gap-6 lg:gap-8 text-lg">
+            <a href="index.php" class="nav-link hover:text-[#a9cf46] transition-colors" data-i18n="home">Accueil</a>
+            <a href="about.php" class="nav-link hover:text-[#a9cf46] transition-colors" data-i18n="about">À Propos</a>
+            <a href="poles.html" class="nav-link hover:text-[#a9cf46] transition-colors" data-i18n="poles">Nos Pôles</a>
+            <a href="projets.html" class="nav-link hover:text-[#a9cf46] transition-colors" data-i18n="projects">Nos Projets</a>
+            <a href="blog.php" class="nav-link hover:text-[#a9cf46] transition-colors" data-i18n="blog">Blog</a>
+            <a href="portfolios.php" class="nav-link hover:text-[#a9cf46] transition-colors" data-i18n="portfolios">Portfolio</a>
+        </nav>
+    </div>
+
+    <!-- Menu Mobile -->
+    <div id="mobile-menu" class="md:hidden hidden bg-[#f6ffde] px-4 pb-4">
+        <nav class="flex flex-col gap-2 text-base">
+            <a href="index.php" class="nav-link hover:text-[#a9cf46] transition py-2" data-i18n="home">Accueil</a>
+            <a href="about.php" class="nav-link hover:text-[#a9cf46] transition py-2" data-i18n="about">À Propos</a>
+            <a href="poles.html" class="nav-link hover:text-[#a9cf46] transition py-2" data-i18n="poles">Nos Pôles</a>
+            <a href="projets.html" class="nav-link hover:text-[#a9cf46] transition py-2" data-i18n="projects">Nos Projets</a>
+            <a href="blog.php" class="nav-link hover:text-[#a9cf46] transition py-2" data-i18n="blog">Blog</a>
+            <a href="portfolios.php" class="nav-link hover:text-[#a9cf46] transition-colors py-2" data-i18n="portfolios">Portfolio</a>
+        </nav>
+        <div class="mt-4 flex flex-col gap-3">
+            <!-- Language Selector for Mobile -->
+            <div class="relative">
+                <select id="language-selector-mobile" class="block appearance-none bg-white border border-gray-300 hover:border-gray-500 px-3 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline w-full text-sm">
+                    <option value="fr" data-icon="images/fr.webp">Français</option>
+                    <option value="en" data-icon="images/en.webp">English</option>
+                </select>
+                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2">
+                    <img id="language-icon-mobile" src="images/fr.webp" alt="Language" class="h-4 w-4">
+                </div>
+            </div>
+            <a href="recrutement.html" class="bg-[#759916] text-white px-4 py-3 rounded-md text-center text-sm hover:bg-[#ade126] transition font-medium" data-i18n="join_us">Nous Rejoindre</a>
+            <a href="contact.html" class="border border-gray-500 px-4 py-3 rounded-md text-center text-sm hover:bg-white transition font-medium" data-i18n="contact_us">Nous contacter</a>
+        </div>
+    </div>
+</header>
+
+<!-- Bannière -->
+<section class="relative">
+    <img 
+        src="cache/bgg-1-800.webp" 
+        srcset="
+            cache/bgg-1-480.webp 480w, 
+            cache/bgg-1-800.webp 800w, 
+            cache/bgg-1-1200.webp 1200w
+        "
+        sizes="(max-width: 600px) 480px, (max-width: 1000px) 800px, 1200px"
+        alt="Hero background" 
+        loading="lazy" 
+        class="w-full h-48 sm:h-64 md:h-80 lg:h-96 object-cover"
+    >
+    <div class="absolute top-0 left-0 w-full h-full bg-black/50 flex flex-col justify-center items-center text-center text-white px-4">
+      <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold pb-4 sm:pb-6" data-i18n="banner_title">Nos offres d'emploi</h1>
+    </div>
+</section>
+
+<!-- Message de confirmation responsive -->
+<div id="message-confirmation" class="hidden mx-4 my-6 max-w-3xl mx-auto">
+  <div class="bg-[#a9cf46] text-white p-3 sm:p-4 rounded-lg shadow-md">
+    <span class="text-sm sm:text-base font-medium" data-i18n="success_message">✅ Votre candidature a été envoyée avec succès !</span>
+  </div>
+</div>
+
+<!-- Section Offres -->
+<section class="py-6 sm:py-8 px-4">
+    <div class="text-center max-w-4xl mx-auto">
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-2" data-i18n="discover_jobs">
+        Découvrez nos offres d'emploi
+      </h2>
+      <p class="text-xl sm:text-2xl text-[#4CAF50] font-semibold" data-i18n="join_us_subtitle">
+        et rejoignez nous
+      </p>
+    </div>
+</section>
+
+<!-- Section de recherche optimisée -->
+<div class="flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 pb-6">
+  <div class="w-full max-w-lg space-y-2">
+    <div class="relative">
+      <input 
+        type="text" 
+        id="searchInput" 
+        data-i18n-placeholder="search_placeholder"
+        placeholder="Rechercher un poste..." 
+        class="block w-full px-4 py-3 text-sm sm:text-base font-normal text-gray-900 placeholder-gray-500 rounded-lg border-2 border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#a9cf46] focus:border-[#a9cf46] transition-all duration-200">
+      <div class="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none">
+        <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Section Offres -->
+<section class="pb-8 sm:pb-12 px-4">
+  <!-- Liste des offres -->
+  <div id="offres-container" class="space-y-4 sm:space-y-6 max-w-4xl mx-auto">
+    <!-- Loading state -->
+    <div id="loading-state" class="text-center py-8">
+      <div class="animate-pulse">
+        <div class="h-4 bg-gray-300 rounded w-3/4 mx-auto mb-2"></div>
+        <div class="h-4 bg-gray-300 rounded w-1/2 mx-auto"></div>
+      </div>
+    </div>
+    
+    <!-- No results state -->
+    <div id="no-results" class="hidden text-center py-8">
+      <div class="text-gray-500 text-lg">
+        <i class="ph ph-magnifying-glass text-3xl mb-2"></i>
+        <p data-i18n="no_results">Aucune offre trouvée</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="bg-[#3a3a3a] text-white py-12">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex flex-col md:flex-row justify-between items-center border-b border-white/20 pb-6">
+        <!-- Logo aligné à gauche -->
+        <div class="mb-4 md:mb-0">
+          <img 
+            src="cache/logo-inverse-198x66-800.webp" 
+            srcset="
+              cache/logo-inverse-198x66-480.webp 480w, 
+              cache/logo-inverse-198x66-800.webp 800w, 
+              cache/logo-inverse-198x66-1200.webp 1200w
+            "
+            sizes="(max-width: 600px) 480px, (max-width: 1000px) 800px, 1200px"
+            loading="lazy" 
+            alt="" 
+            data-alt-i18n="agriforland_logo"
+            class="h-12"
+          />
+        </div>
+        <!-- Réseaux sociaux alignés à droite -->
+        <div class="text-center md:text-right">
+          <p class="font-bold mb-2" data-i18n="follow_us">SUIVEZ-NOUS</p>
+          <div class="flex justify-center md:justify-end gap-4 text-2xl">
+            <a class="hover:text-[#a9cf46] transition-colors" href="#" aria-label="" data-aria-i18n="facebook"><i class="ph ph-facebook-logo"></i></a>
+            <a class="hover:text-[#a9cf46] transition-colors" href="#" aria-label="" data-aria-i18n="instagram"><i class="ph ph-instagram-logo"></i></a>
+            <a class="hover:text-[#a9cf46] transition-colors" href="#" aria-label="" data-aria-i18n="twitter"><i class="ph ph-twitter-logo"></i></a>
+            <a class="hover:text-[#a9cf46] transition-colors" href="#" aria-label="" data-aria-i18n="linkedin"><i class="ph ph-linkedin-logo"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="grid md:grid-cols-4 gap-8 mt-6">
+        <div class="border-b md:border-none pb-4 md:pb-0">
+          <h4 class="font-bold mb-2" data-i18n="useful_links">Liens Utiles</h4>
+          <ul class="text-sm space-y-1">
+            <li class="hover:text-[#a9cf46] transition-colors"><a href="about.php" data-i18n="about">À Propos</a></li>
+            <li class="hover:text-[#a9cf46] transition-colors"><a href="poles.html" data-i18n="poles">Nos Pôles</a></li>
+            <li class="hover:text-[#a9cf46] transition-colors"><a href="projets.html" data-i18n="projects">Nos Projets</a></li>
+        </ul>
+        </div>
+        <div class="border-b md:border-none pb-4 md:pb-0">
+          <h4 class="font-bold mb-2" data-i18n="useful_links">Liens Utiles</h4> 
+          <ul class="text-sm space-y-1">
+            <li class="hover:text-[#a9cf46] transition-colors"><a href="blog.php" data-i18n="blog">Blog</a></li>
+            <li class="hover:text-[#a9cf46] transition-colors"><a href="portfolios.php" data-i18n="portfolios">Portfolio</a></li>
+            <li class="hover:text-[#a9cf46] transition-colors"><a href="contact.html" data-i18n="contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="border-b md:border-none pb-4 md:pb-0">
+          <h4 class="font-bold mb-2" data-i18n="others">Autres</h4>
+          <ul class="text-sm space-y-1">
+            <li class="hover:text-[#a9cf46] transition-colors"><a href="recrutement.html" data-i18n="join_us">Nous Rejoindre</a></li>
+            <li class="hover:text-[#a9cf46] transition-colors"><a href="consultants.php" data-i18n="consultant_recruitment">Recrutement Consultant</a></li>
+            <li class="hover:text-[#a9cf46] transition-colors"><a href="ranch.php" data-i18n="ranch">Notre Ranch</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold mb-2" data-i18n="newsletter">Newsletter</h4>
+          <form id="newsletter-form" class="mt-6 px-4">
+            <input type="email" name="newsletter_email" placeholder="Votre email" data-i18n-placeholder="your_email" required class="w-full px-3 py-2 rounded mb-2 text-black">
+            <button type="submit" class="bg-[#a9cf46] w-full py-2 rounded" data-i18n="subscribe">S'inscrire</button>
+            <p id="newsletter-msg" class="text-green-600 mt-2 hidden" data-i18n="newsletter_success">Merci pour votre inscription !</p>
+          </form>
+        </div>
+      </div>
+      <div class="flex flex-col md:flex-row justify-between items-center border-t border-b border-white/20 py-6 mt-6 text-xs text-white/60">
+        <!-- Numéro de téléphone à gauche -->
+        <div class="mb-2 md:mb-0">
+          <a href="tel:+2252722332336" class="text-white font-bold hover:text-[#a9cf46] transition-colors">
+            +225 27 22 332 336
+          </a>
+        </div>
+        <!-- Copyright à droite -->
+        <div data-i18n="copyright">
+          © 2025 Agriforland. Tous droits réservés.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script>
+  // Language translations (complètes avec nouvelles clés)
+  const translations = {
+    fr: {
+      title: "AGRIFORLAND SARL - Recrutements",
+      join_us: "Nous Rejoindre",
+      contact_us: "Nous Contacter",
+      home: "Accueil",
+      about: "À Propos",
+      poles: "Nos Pôles",
+      projects: "Nos Projets",
+      blog: "Blog",
+      portfolios: "Portfolio",
+      banner_title: "Nos offres d'emploi",
+      success_message: "✅ Votre candidature a été envoyée avec succès !",
+      discover_jobs: "Découvrez nos offres d'emploi",
+      join_us_subtitle: "et rejoignez nous",
+      search_placeholder: "Rechercher un poste...",
+      no_results: "Aucune offre trouvée",
+      offer_expired: "Offre résiliée",
+      follow_us: "SUIVEZ-NOUS",
+      useful_links: "Liens Utiles",
+      contact: "Contact",
+      recruitment: "Recrutement",
+      consultant_recruitment: "Recrutement Consultant",
+      our_group: "Notre Groupe",
+      our_stories: "Nos Histoires",
+      our_values: "Nos Valeurs",
+      our_missions: "Nos Missions",
+      our_teams: "Nos Equipe",
+      our_ecofarms: "Nos Ecoferme",
+      others: "Autres",
+      agroforestry: "Agroforesterie",
+      mapping: "Cartographie",
+      our_partners: "Nos Partenaires",
+      newsletter: "Newsletter",
+      your_email: "Votre email",
+      subscribe: "S'inscrire",
+      subscribing: "Inscription...",
+      newsletter_success: "Merci pour votre inscription !",
+      newsletter_error: "Erreur lors de l'inscription.",
+      copyright: "© 2025 Agriforland. Tous droits réservés."
+    },
+    en: {
+      title: "AGRIFORLAND SARL - Recruitment",
+      join_us: "Join Us",
+      contact_us: "Contact Us",
+      home: "Home",
+      about: "About",
+      poles: "Our Divisions",
+      projects: "Our Projects",
+      blog: "Blog",
+      portfolios: "Portfolio",
+      banner_title: "Our job opportunities",
+      success_message: "✅ Your application has been sent successfully!",
+      discover_jobs: "Discover our job opportunities",
+      join_us_subtitle: "and join us",
+      search_placeholder: "Search for a position...",
+      no_results: "No offers found",
+      offer_expired: "Expired offer",
+      follow_us: "FOLLOW US",
+      useful_links: "Useful Links",
+      contact: "Contact",
+      recruitment: "Recruitment",
+      consultant_recruitment: "Consultant Recruitment",
+      our_group: "Our Group",
+      our_stories: "Our Stories",
+      our_values: "Our Values",
+      our_missions: "Our Missions",
+      our_teams: "Our Team",
+      our_ecofarms: "Our Ecofarm",
+      others: "Others",
+      agroforestry: "Agroforestry",
+      mapping: "Mapping",
+      our_partners: "Our Partners",
+      newsletter: "Newsletter",
+      your_email: "Your email",
+      subscribe: "Subscribe",
+      subscribing: "Subscribing...",
+      newsletter_success: "Thank you for subscribing!",
+      newsletter_error: "Error during subscription.",
+      copyright: "© 2025 Agriforland. All rights reserved."
+    }
+  };
+
+  // Variables globales pour gérer la langue et les offres
+  let allOffres = [];
+  let currentLang = 'fr';
+
+  // Helper function to get localized content
+  function getLocalizedContent(offre, field, lang = 'fr') {
+    const key = field + '_' + lang;
+    return offre[key] || offre[field] || '';
+  }
+
+  // Language switcher
+  const languageSelectors = document.querySelectorAll('#language-selector, #language-selector-mobile');
+  const languageIcons = document.querySelectorAll('#language-icon, #language-icon-mobile');
+
+  function updateContent(lang) {
+    currentLang = lang;
+    
+    // Update static interface elements
+    document.querySelectorAll('[data-i18n]').forEach(element => {
+      const key = element.getAttribute('data-i18n');
+      if (translations[lang] && translations[lang][key]) {
+        element.textContent = translations[lang][key];
+      }
+    });
+    
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(element => {
+      const key = element.getAttribute('data-i18n-placeholder');
+      if (translations[lang] && translations[lang][key]) {
+        element.placeholder = translations[lang][key];
+      }
+    });
+    
+    document.documentElement.lang = lang;
+    languageIcons.forEach(icon => icon.src = `images/${lang}.webp`);
+    languageSelectors.forEach(selector => selector.value = lang);
+    
+    // Re-display offers with new language if offers are loaded
+    if (allOffres.length > 0) {
+      afficherOffres(allOffres);
+    }
+    
+    // Update expired offer texts
+    updateOfferExpiredText(lang);
+  }
+
+  languageSelectors.forEach(selector => {
+    selector.addEventListener('change', (e) => {
+      const selectedLang = e.target.value;
+      updateContent(selectedLang);
+      localStorage.setItem('language', selectedLang);
+    });
+  });
+
+  // Set default language
+  const savedLang = localStorage.getItem('language') || 'fr';
+  updateContent(savedLang);
+
+  // Load offers from JSON with loading state
+  const loadingState = document.getElementById('loading-state');
+  const offresContainer = document.getElementById('offres-container');
+  const noResults = document.getElementById('no-results');
+
+  fetch('data/recrutement.json')
+    .then(response => {
+      if (!response.ok) throw new Error('Network response was not ok');
+      return response.json();
+    })
+    .then(data => {
+      allOffres = data;
+      loadingState.remove();
+      afficherOffres(data); // Display all offers, including expired ones
+    })
+    .catch(error => {
+      console.error("Erreur lors du chargement des offres :", error);
+      loadingState.innerHTML = '<div class="text-red-500 text-center">Erreur de chargement des offres</div>';
+    });
+
+  function isResiliee(offre) {
+    if (offre.statut === 'resiliee') {
+      return true;
+    }
+    if (offre.date_resiliation) {
+      const currentDate = new Date();
+      const resiliationDate = new Date(offre.date_resiliation);
+      return currentDate > resiliationDate;
+    }
+    return false;
+  }
+
+  function updateOfferExpiredText(lang) {
+    // Update existing expired offer texts
+    document.querySelectorAll('.expired-offer-text').forEach(element => {
+      element.textContent = translations[lang].offer_expired;
+    });
+  }
+
+  function afficherOffres(offres) {
+    const container = document.getElementById('offres-container');
+    container.innerHTML = "";
+    
+    if (offres.length === 0) {
+      noResults.classList.remove('hidden');
+      return;
+    } else {
+      noResults.classList.add('hidden');
+    }
+    
+    offres.forEach(offre => {
+      const div = document.createElement('div');
+      const estResiliee = isResiliee(offre);
+      
+      // Get localized content
+      const titre = getLocalizedContent(offre, 'titre', currentLang);
+      const intro = getLocalizedContent(offre, 'intro', currentLang);
+      
+      div.className = `bg-white p-4 sm:p-6 rounded-xl transition text-left border-2 hover:shadow-lg ${
+        estResiliee ? 'border-gray-300 opacity-60 cursor-not-allowed' : 'border-[#a9cf46]/30 hover:border-[#a9cf46]'
+      }`;
+      
+      div.innerHTML = `
+        <div class="relative">
+          ${
+            estResiliee
+              ? `<span class="absolute top-0 right-0 bg-red-500 text-white text-xs font-semibold px-2 py-1 rounded-bl-lg expired-offer-text">${translations[currentLang].offer_expired}</span>`
+              : ''
+          }
+          ${
+            estResiliee
+              ? `<h3 class="text-lg sm:text-xl font-bold text-gray-500 mb-2 pr-16">${titre}</h3>`
+              : `<a href="description-du-poste.php?slug=${offre.slug}&lang=${currentLang}" class="block">
+                   <h3 class="text-lg sm:text-xl font-bold text-[#4CAF50] hover:text-[#a9cf46] transition-colors mb-2 pr-4">${titre}</h3>
+                 </a>`
+          }
+          <p class="text-sm sm:text-base text-gray-700 leading-relaxed ${estResiliee ? 'pr-16' : 'pr-4'}">${intro}</p>
+        </div>
+      `;
+      container.appendChild(div);
+    });
+  }
+
+  // Search functionality adapted for bilingual content with debounce
+  let searchTimeout;
+  document.getElementById('searchInput').addEventListener('input', function () {
+    const value = this.value.toLowerCase();
+    
+    clearTimeout(searchTimeout);
+    searchTimeout = setTimeout(() => {
+      // Filter offers based on localized title and intro
+      const filtres = allOffres.filter(offre => {
+        const titre = getLocalizedContent(offre, 'titre', currentLang).toLowerCase();
+        const intro = getLocalizedContent(offre, 'intro', currentLang).toLowerCase();
+        return titre.includes(value) || intro.includes(value);
+      });
+      
+      afficherOffres(filtres);
+    }, 300);
+  });
+
+  // Preloader
+  window.addEventListener("load", function () {
+    const preloader = document.getElementById('preloader');
+    preloader.classList.add('opacity-0', 'pointer-events-none', 'transition-opacity', 'duration-500');
+    setTimeout(() => preloader.remove(), 500);
+  });
+
+  // Menu mobile amélioré
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  
+  toggle.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+  });
+
+  // Fermer le menu en cliquant sur un lien
+  const mobileLinks = menu.querySelectorAll('a');
+  mobileLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      menu.classList.add('hidden');
+    });
+  });
+
+  // Fermer le menu en cliquant en dehors
+  document.addEventListener('click', (e) => {
+    if (!toggle.contains(e.target) && !menu.contains(e.target)) {
+      menu.classList.add('hidden');
+    }
+  });
+
+  // Newsletter améliorée avec états de chargement
+  const newsletterForm = document.getElementById('newsletter-form');
+  const newsletterMsg = document.getElementById('newsletter-msg');
+  const newsletterBtn = document.getElementById('newsletter-btn');
+  
+  newsletterForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    // État de chargement
+    newsletterBtn.disabled = true;
+    newsletterBtn.textContent = translations[currentLang].subscribing;
+    
+    try {
+      const formData = new FormData(newsletterForm);
+      const response = await fetch('back/newsletter.php', {
+        method: 'POST',
+        body: formData
+      });
+      
+      if (response.ok) {
+        newsletterMsg.classList.remove('hidden', 'text-red-600');
+        newsletterMsg.classList.add('text-green-600');
+        newsletterMsg.textContent = translations[currentLang].newsletter_success;
+        newsletterForm.reset();
+      } else {
+        newsletterMsg.classList.remove('hidden', 'text-green-600');
+        newsletterMsg.classList.add('text-red-600');
+        newsletterMsg.textContent = translations[currentLang].newsletter_error;
+      }
+    } catch (error) {
+      newsletterMsg.classList.remove('hidden', 'text-green-600');
+      newsletterMsg.classList.add('text-red-600');
+      newsletterMsg.textContent = translations[currentLang].newsletter_error;
+    } finally {
+      // Restaurer le bouton
+      newsletterBtn.disabled = false;
+      newsletterBtn.textContent = translations[currentLang].subscribe;
+      
+      // Masquer le message après 5 secondes
+      setTimeout(() => {
+        newsletterMsg.classList.add('hidden');
+      }, 5000);
+    }
+  });
+
+  // Active navigation
+  const currentPage = window.location.pathname.split("/").pop();
+  document.querySelectorAll('.nav-link').forEach(link => {
+    const href = link.getAttribute('href');
+    if (href === currentPage) {
+      link.classList.add('text-[#a9cf46]', 'border-b-2', 'border-[#a9cf46]', 'font-semibold');
+    }
+  });
+
+  // Success message handling - responsive
+  const params = new URLSearchParams(window.location.search);
+  if (params.get("success") === "1") {
+    const messageConfirmation = document.getElementById("message-confirmation");
+    messageConfirmation.classList.remove("hidden");
+    
+    // Auto-hide after 8 seconds
+    setTimeout(() => {
+      messageConfirmation.classList.add("hidden");
+    }, 8000);
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,1377 @@
+[
+  {
+    "id": 1,
+    "titre": {
+      "fr": "ÉTUDE DE BASE DANS LES COMMUNAUTÉS RIVERAINES DE MABI-YAYA",
+      "en": "BASELINE STUDY IN THE MABI-YAYA RIPARIAN COMMUNITIES"
+    },
+    "slug": "etude-base-mabi-yaya",
+    "description": {
+      "fr": [
+        "L'étude de base du projet 'Sustainable rubber for communities (SR4C)' vise à mieux comprendre les dynamiques socio-économiques et environnementales de la région, notamment les facteurs contribuant à la déforestation.",
+        "Analyse de la démarche de durabilité des meuniers de caoutchouc de la région de La Mé pour identifier les axes d'amélioration et les bonnes pratiques visant à réduire l'impact économique sur l'environnement local."
+      ],
+      "en": [
+        "The baseline study of the 'Sustainable rubber for communities (SR4C)' project aims to better understand the socio-economic and environmental dynamics of the region, particularly the factors contributing to deforestation.",
+        "Analysis of the sustainability approach of rubber millers in the La Mé region to identify areas for improvement and best practices aimed at reducing economic impact on the local environment."
+      ]
+    },
+    "categorie": ["Mapping/Cartographie", "En Cours"],
+    "partenaire": "SIFCA/SAPH",
+    "date_demarrage": "Février - 2024",
+    "zones": ["Réserve de Mabi-Yaya", "Adzopé"],
+    "duree": {
+      "fr": "2 mois",
+      "en": "2 months"
+    },
+    "mots_cles": {
+      "fr": ["Caoutchouc", "Déforestation", "Durabilité", "Enquête socio-économique"],
+      "en": ["Rubber", "Deforestation", "Sustainability", "Socio-economic survey"]
+    },
+    "image": "cache/projet_realise_realiser-1-800.webp",
+    "contexte": {
+      "fr": [
+        "Cette étude s'inscrit dans le cadre du projet SR4C afin de fournir des données de référence sur la situation socio-économique des producteurs de caoutchouc et sur la gestion durable des ressources naturelles."
+      ],
+      "en": [
+        "This study is part of the SR4C project to provide baseline data on the socio-economic situation of rubber producers and on sustainable management of natural resources."
+      ]
+    },
+    "objectifs": {
+      "fr": [
+        "Réaliser une étude de base dans les villages de Kossandji et Mopodji.",
+        "Collecter des données socio-économiques sur les producteurs de caoutchouc.",
+        "Analyser la démarche de durabilité des meuniers de caoutchouc naturel.",
+        "Étudier les activités de contrôle de la déforestation au sein de la réserve de Mabi-Yaya.",
+        "Contribuer à l'amélioration de la gestion des aires protégées."
+      ],
+      "en": [
+        "Conduct a baseline study in the villages of Kossandji and Mopodji.",
+        "Collect socio-economic data on rubber producers.",
+        "Analyze the sustainability approach of natural rubber millers.",
+        "Study deforestation control activities within the Mabi-Yaya reserve.",
+        "Contribute to improving protected area management."
+      ]
+    },
+    "resultats": {
+      "fr": [
+        "Enquête menée auprès des ménages producteurs de caoutchouc pour recueillir des données pertinentes.",
+        "Collecte de données sur la méthodologie et les défis de l'OIPR dans la lutte contre la déforestation.",
+        "Élaboration d'un rapport de référence sur la situation socio-économique et environnementale des producteurs.",
+        "Propositions pour améliorer la gestion des aires protégées, notamment la réserve de Mabi-Yaya."
+      ],
+      "en": [
+        "Survey conducted among rubber-producing households to gather relevant data.",
+        "Data collection on OIPR methodology and challenges in combating deforestation.",
+        "Development of a reference report on the socio-economic and environmental situation of producers.",
+        "Proposals to improve protected area management, particularly the Mabi-Yaya reserve."
+      ]
+    },
+    "url": "portfolio.php?slug=etude-base-mabi-yaya",
+    "album": [
+      {
+        "titre": "Photo 1",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Vue générale de la réserve de Mabi-Yaya"
+      },
+      {
+        "titre": "Photo 2",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Producteurs de caoutchouc au travail"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titre": {
+      "fr": "STRATÉGIE NATIONALE POUR LES RÉSERVES NATURELLES VOLONTAIRES",
+      "en": "NATIONAL STRATEGY FOR VOLUNTARY NATURAL RESERVES"
+    },
+    "slug": "strategie-reserves-naturelles-volontaires",
+    "description": {
+      "fr": [
+        "Dans le cadre de l'amélioration de la gestion des aires protégées du Complexe forestier de Taï-Grebo-Sapo (TGS), cette mission vise à appuyer la Direction de l'écologie et de la protection de la nature (DEPN) du Ministère de l'Environnement et du Développement durable (MINEDD).",
+        "L'objectif est d'élaborer une stratégie nationale pour la promotion, la création et la gestion durable des Réserves Naturelles Volontaires (ENV), en renforçant la protection de la biodiversité et en favorisant une gouvernance participative."
+      ],
+      "en": [
+        "Within the framework of improving the management of protected areas of the Taï-Grebo-Sapo Forest Complex (TGS), this mission aims to support the Directorate of Ecology and Nature Protection (DEPN) of the Ministry of Environment and Sustainable Development (MINEDD).",
+        "The objective is to develop a national strategy for the promotion, creation and sustainable management of Voluntary Natural Reserves (VNR), by strengthening biodiversity protection and promoting participatory governance."
+      ]
+    },
+    "categorie": ["Communication"],
+    "partenaire": "GIZ (Deutsche Gesellschaft für Internationale Zusammenarbeit)",
+    "date_demarrage": "Décembre - 2023",
+    "zones": ["Complexe forestier de Taï-Grebo-Sapo (TGS)"],
+    "duree": {
+      "fr": "3 mois",
+      "en": "3 months"
+    },
+    "mots_cles": {
+      "fr": ["Biodiversité", "Réserves Naturelles Volontaires", "Gestion durable", "Cadre juridique"],
+      "en": ["Biodiversity", "Voluntary Natural Reserves", "Sustainable management", "Legal framework"]
+    },
+    "image": "cache/projet_realise_e-laboration-800.webp",
+    "contexte": {
+      "fr": [
+        "Le projet soutient la promotion et la gestion durable des Réserves Naturelles Volontaires en Côte d'Ivoire, en fournissant un cadre stratégique et réglementaire adapté pour la conservation de la biodiversité et la participation des acteurs locaux."
+      ],
+      "en": [
+        "The project supports the promotion and sustainable management of Voluntary Natural Reserves in Côte d'Ivoire, by providing an appropriate strategic and regulatory framework for biodiversity conservation and local stakeholder participation."
+      ]
+    },
+    "objectifs": {
+      "fr": [
+        "Identifier les pays ayant mis en place une stratégie réussie de création et de gestion de réserves naturelles volontaires.",
+        "Réaliser un inventaire des Réserves Naturelles Volontaires existantes en Côte d'Ivoire.",
+        "Analyser le cadre juridique et réglementaire en vigueur pour la création et la gestion des ENV.",
+        "Comparer le cadre juridique ivoirien avec celui de pays ayant une stratégie similaire.",
+        "Organiser un atelier de rétroaction avec les parties prenantes pour discuter des résultats de l'étude.",
+        "Mettre en place un groupe de travail pour élaborer la stratégie nationale des ENV.",
+        "Rédiger une stratégie prenant en compte les aspects juridiques, financiers, de suivi-évaluation et de mobilisation des populations."
+      ],
+      "en": [
+        "Identify countries that have successfully implemented strategies for creating and managing voluntary natural reserves.",
+        "Conduct an inventory of existing Voluntary Natural Reserves in Côte d'Ivoire.",
+        "Analyze the current legal and regulatory framework for VNR creation and management.",
+        "Compare the Ivorian legal framework with that of countries having similar strategies.",
+        "Organize a feedback workshop with stakeholders to discuss study results.",
+        "Establish a working group to develop the national VNR strategy.",
+        "Draft a strategy taking into account legal, financial, monitoring-evaluation and population mobilization aspects."
+      ]
+    },
+    "resultats": {
+      "fr": [
+        "Analyse comparative du cadre juridique ivoirien et de celui d'autres pays.",
+        "Inventaire des réserves naturelles volontaires existantes en Côte d'Ivoire.",
+        "Organisation d'un atelier avec les parties prenantes pour valider les résultats.",
+        "Mise en place d'un groupe de travail chargé de l'élaboration de la stratégie.",
+        "Rédaction et proposition d'une stratégie nationale pour la gestion durable des ENV."
+      ],
+      "en": [
+        "Comparative analysis of the Ivorian legal framework and that of other countries.",
+        "Inventory of existing voluntary natural reserves in Côte d'Ivoire.",
+        "Organization of a workshop with stakeholders to validate results.",
+        "Establishment of a working group responsible for strategy development.",
+        "Drafting and proposal of a national strategy for sustainable VNR management."
+      ]
+    },
+    "url": "portfolio.php?slug=strategie-reserves-naturelles-volontaires",
+    "album": [
+      {
+        "titre": "Photo 1",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Vue générale de la réserve de Mabi-Yaya"
+      },
+      {
+        "titre": "Photo 2",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Producteurs de caoutchouc au travail"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "titre": {
+      "fr": "CARTOGRAPHIE DES PRODUCTEURS DE CAOUTCHOUC EN CÔTE D'IVOIRE",
+      "en": "MAPPING OF RUBBER PRODUCERS IN CÔTE D'IVOIRE"
+    },
+    "slug": "cartographie-producteurs-caoutchouc",
+    "description": {
+      "fr": [
+        "OLAM AGRI Rubber a confié à AGRIFORLAND la mission de cartographier les plantations d'hévéas de 400 producteurs affiliés à des coopératives dans les régions d'Agneby-Tiassa, de La Mé et d'Indenié-Djuablin.",
+        "L'objectif est d'établir une cartographie précise des parcelles de caoutchouc (2600 ha), d'assurer la traçabilité des exploitations et de fournir des fichiers cartographiques détaillés pour un meilleur suivi."
+      ],
+      "en": [
+        "OLAM AGRI Rubber entrusted AGRIFORLAND with the mission to map rubber plantations of 400 producers affiliated with cooperatives in the Agneby-Tiassa, La Mé and Indenié-Djuablin regions.",
+        "The objective is to establish precise mapping of rubber plots (2600 ha), ensure traceability of farms and provide detailed cartographic files for better monitoring."
+      ]
+    },
+    "categorie": ["Mapping/Cartographie"],
+    "partenaire": "OLAM AGRI Rubber, Côte d'Ivoire",
+    "date_demarrage": "Novembre - 2023",
+    "zones": ["Agneby-Tiassa", "La Mé", "Indenié-Djuablin"],
+    "duree": {
+      "fr": "3 mois",
+      "en": "3 months"
+    },
+    "mots_cles": {
+      "fr": ["SIG", "Cartographie", "Traçabilité", "Caoutchouc", "Agriculture"],
+      "en": ["GIS", "Mapping", "Traceability", "Rubber", "Agriculture"]
+    },
+    "image": "cache/projet_realise_cartographie-1-800.webp",
+    "contexte": {
+      "fr": [
+        "La traçabilité et la gestion durable des plantations de caoutchouc sont devenues essentielles pour répondre aux exigences du marché et aux normes environnementales. Cette mission vise à fournir des données précises sur la localisation et la taille des exploitations afin d'améliorer la transparence dans la chaîne d'approvisionnement."
+      ],
+      "en": [
+        "Traceability and sustainable management of rubber plantations have become essential to meet market requirements and environmental standards. This mission aims to provide accurate data on the location and size of farms to improve transparency in the supply chain."
+      ]
+    },
+    "objectifs": {
+      "fr": [
+        "Cartographier les parcelles de caoutchouc des producteurs affiliés aux coopératives.",
+        "Attribuer un identificateur unique à chaque producteur.",
+        "Réaliser un inventaire précis des parcelles et estimer leurs superficies.",
+        "Assurer la traçabilité de l'origine du caoutchouc acheté par OLAM auprès des producteurs locaux.",
+        "Produire des fichiers cartographiques exploitables pour la gestion des plantations."
+      ],
+      "en": [
+        "Map rubber plots of producers affiliated with cooperatives.",
+        "Assign a unique identifier to each producer.",
+        "Conduct a precise inventory of plots and estimate their areas.",
+        "Ensure traceability of rubber origin purchased by OLAM from local producers.",
+        "Produce usable cartographic files for plantation management."
+      ]
+    },
+    "resultats": {
+      "fr": [
+        "Numérisation des parcelles d'hévéa de 400 producteurs (2600 ha).",
+        "Mise en place d'un système d'identification unique des producteurs.",
+        "Cartographie détaillée et enregistrement des exploitations.",
+        "Traçabilité améliorée du caoutchouc dans la chaîne d'approvisionnement."
+      ],
+      "en": [
+        "Digitization of rubber plots from 400 producers (2600 ha).",
+        "Implementation of a unique producer identification system.",
+        "Detailed mapping and farm registration.",
+        "Improved rubber traceability in the supply chain."
+      ]
+    },
+    "url": "portfolio.php?slug=cartographie-producteurs-caoutchouc",
+    "album": [
+      {
+        "titre": "Photo 1",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Vue générale de la réserve de Mabi-Yaya"
+      },
+      {
+        "titre": "Photo 2",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Producteurs de caoutchouc au travail"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "titre": {
+      "fr": "FORMATION DE FORMATEURS POUR LE PROJET FORESTS4FUTURE",
+      "en": "TRAINER TRAINING FOR THE FORESTS4FUTURE PROJECT"
+    },
+    "slug": "formation-formateurs-cooperatives-F4F",
+    "description": {
+      "fr": [
+        "La mission consistait à former les formateurs de producteurs membres des coopératives partenaires du projet Forests4Future (F4F), afin de renforcer les capacités des équipes des coopératives de Benkadi et Espoir de M'Batto en matière de gestion durable des paysages forestiers.",
+        "Les objectifs étaient de former à la gestion de la gouvernance forestière et à la restauration des paysages forestiers, en vue de renforcer les capacités locales dans la durabilité des pratiques agricoles."
+      ],
+      "en": [
+        "The mission consisted of training trainers of producer members of cooperative partners of the Forests4Future (F4F) project, to strengthen the capacities of the teams of Benkadi and Espoir de M'Batto cooperatives in sustainable forest landscape management.",
+        "The objectives were to provide training on forest governance management and forest landscape restoration, with a view to strengthening local capacities in sustainable agricultural practices."
+      ]
+    },
+    "categorie": ["Communication"],
+    "partenaire": "GIZ (Deutsche Gesellschaft für Internationale Zusammenarbeit), Côte d'Ivoire",
+    "date_demarrage": "Novembre - 2023",
+    "zones": ["Agboville", "M'Batto"],
+    "duree": {
+      "fr": "1 mois",
+      "en": "1 month"
+    },
+    "mots_cles": {
+      "fr": ["Formation", "Gouvernance forestière", "Restauration des paysages", "Coopératives", "Environnement"],
+      "en": ["Training", "Forest governance", "Landscape restoration", "Cooperatives", "Environment"]
+    },
+    "image": "cache/projet_realise_img5-1-800.webp",
+    "contexte": {
+      "fr": [
+        "Le projet F4F vise à améliorer la gestion durable des paysages forestiers, en impliquant les coopératives agricoles locales et leurs membres dans des actions de sensibilisation et de formation afin de mieux gérer les ressources naturelles et de favoriser la restauration des paysages dégradés."
+      ],
+      "en": [
+        "The F4F project aims to improve sustainable forest landscape management, by involving local agricultural cooperatives and their members in awareness and training actions to better manage natural resources and promote restoration of degraded landscapes."
+      ]
+    },
+    "objectifs": {
+      "fr": [
+        "Renforcer les capacités des membres des coopératives partenaires dans la gestion des paysages forestiers.",
+        "Améliorer la gouvernance forestière au sein des coopératives.",
+        "Former les formateurs pour qu'ils puissent à leur tour former d'autres producteurs."
+      ],
+      "en": [
+        "Strengthen the capacities of partner cooperative members in forest landscape management.",
+        "Improve forest governance within cooperatives.",
+        "Train trainers so they can in turn train other producers."
+      ]
+    },
+    "resultats": {
+      "fr": [
+        "Formation des formateurs de coopératives partenaires.",
+        "Amélioration de la gouvernance forestière au sein des coopératives.",
+        "Capacités accrues des membres des coopératives en matière de gestion durable des paysages forestiers."
+      ],
+      "en": [
+        "Training of partner cooperative trainers.",
+        "Improved forest governance within cooperatives.",
+        "Increased capacities of cooperative members in sustainable forest landscape management."
+      ]
+    },
+    "url": "portfolio.php?slug=formation-formateurs-cooperatives-F4F",
+    "album": [
+      {
+        "titre": "Photo 1",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Vue générale de la réserve de Mabi-Yaya"
+      },
+      {
+        "titre": "Photo 2",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Producteurs de caoutchouc au travail"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "titre": {
+      "fr": "ÉTUDE DIAGNOSTIQUE DANS LE CADRE DE L'INITIATIVE CACAO & FORÊTS",
+      "en": "DIAGNOSTIC STUDY WITHIN THE COCOA & FORESTS INITIATIVE"
+    },
+    "slug": "etude-diagnostique-campagne-sensibilisation-cfi",
+    "description": {
+      "fr": [
+        "L'objectif de la mission était de réaliser une étude diagnostique et de mener une campagne de sensibilisation dans les zones prioritaires de la phase 2 de l'Initiative Cacao & Forêts, afin d'améliorer la conservation des ressources naturelles et de renforcer les capacités des communautés locales.",
+        "Les travaux ont porté sur la sensibilisation des communautés aux enjeux de conservation, la gestion durable de la cacaoculture, ainsi que la préservation des forêts et des ressources agricoles, en lien avec les normes environnementales internationales."
+      ],
+      "en": [
+        "The objective of the mission was to conduct a diagnostic study and carry out an awareness campaign in the priority areas of phase 2 of the Cocoa & Forests Initiative, to improve natural resource conservation and strengthen local community capacities.",
+        "The work focused on community awareness of conservation issues, sustainable cocoa farming management, as well as forest and agricultural resource preservation, in connection with international environmental standards."
+      ]
+    },
+    "categorie": ["Agroforesterie"],
+    "partenaire": "Initiative pour les forêts de cacao (2022-2025), Côte d'Ivoire",
+    "date_demarrage": "Octobre - 2023",
+    "zones": ["Yapo Abbé", "Bossematie"],
+    "duree": {
+      "fr": "8 mois",
+      "en": "8 months"
+    },
+    "mots_cles": {
+      "fr": ["Déforestation", "Conservation", "Cacao", "Sensibilisation", "Forêts"],
+      "en": ["Deforestation", "Conservation", "Cocoa", "Awareness", "Forests"]
+    },
+    "image": "cache/projet_realise_etude-1-800.webp",
+    "contexte": {
+      "fr": [
+        "La déforestation dans les zones de production de cacao a des impacts majeurs sur la biodiversité et la durabilité de la cacaoculture. La CFI vise à préserver les forêts tout en soutenant une agriculture durable, en impliquant les communautés locales dans la gestion des ressources naturelles."
+      ],
+      "en": [
+        "Deforestation in cocoa production areas has major impacts on biodiversity and cocoa farming sustainability. The CFI aims to preserve forests while supporting sustainable agriculture, by involving local communities in natural resource management."
+      ]
+    },
+    "objectifs": {
+      "fr": [
+        "Diagnostiquer les causes de la déforestation dans les zones prioritaires.",
+        "Sensibiliser les parties prenantes et les communautés locales sur la norme ARS 1000, les codes forestier et foncier rural, et l'EUDR.",
+        "Renforcer les capacités des autorités administratives et coutumières concernant la conservation et la gestion durable des ressources naturelles.",
+        "Cartographier et identifier les acteurs impliqués dans les projets de conservation et de réhabilitation des forêts."
+      ],
+      "en": [
+        "Diagnose the causes of deforestation in priority areas.",
+        "Raise awareness among stakeholders and local communities about the ARS 1000 standard, forest and rural land codes, and EUDR.",
+        "Strengthen the capacities of administrative and customary authorities regarding conservation and sustainable management of natural resources.",
+        "Map and identify actors involved in forest conservation and rehabilitation projects."
+      ]
+    },
+    "resultats": {
+      "fr": [
+        "Amélioration de la sensibilisation des communautés aux pratiques agricoles durables et à la conservation des forêts.",
+        "Formation des autorités locales sur les régulations en matière de gestion durable des ressources naturelles.",
+        "Cartographie des parties prenantes impliquées dans la gestion des forêts classées de Yapo Abbé et de Bossematie.",
+        "Identification des synergies et des écarts entre les projets existants et les objectifs de la CFI."
+      ],
+      "en": [
+        "Improved community awareness of sustainable agricultural practices and forest conservation.",
+        "Training of local authorities on regulations regarding sustainable natural resource management.",
+        "Mapping of stakeholders involved in the management of Yapo Abbé and Bossematie classified forests.",
+        "Identification of synergies and gaps between existing projects and CFI objectives."
+      ]
+    },
+    "url": "portfolio.php?slug=etude-diagnostique-campagne-sensibilisation-cfi",
+    "album": [
+      {
+        "titre": "Photo 1",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Vue générale de la réserve de Mabi-Yaya"
+      },
+      {
+        "titre": "Photo 2",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Producteurs de caoutchouc au travail"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "titre": {
+      "fr": "AUDIT DES PROJETS D'AGROFORESTERIE ET DE REFORESTATION DE PUR",
+      "en": "AUDIT OF PUR'S AGROFORESTRY AND REFORESTATION PROJECTS"
+    },
+    "slug": "mission-conseil-audit-agroforesterie-reforestation-pur",
+    "description": {
+      "fr": [
+        "Cette mission consistait en un audit approfondi des projets d'agroforesterie et de reforestation réalisés par PUR, en vue d'évaluer la conformité du projet aux normes de qualité et de formuler des recommandations pour améliorer la mise en œuvre.",
+        "L'audit portait sur 21 coopératives locales, incluant une revue documentaire, des vérifications sur le terrain et l'identification des bonnes pratiques, incohérences et données manquantes."
+      ],
+      "en": [
+        "This mission consisted of a thorough audit of agroforestry and reforestation projects carried out by PUR, with a view to evaluating project compliance with quality standards and formulating recommendations to improve implementation.",
+        "The audit covered 21 local cooperatives, including a documentary review, field verifications and identification of good practices, inconsistencies and missing data."
+      ]
+    },
+    "categorie": ["Reforestation"],
+    "partenaire": "PUR PROJET, Côte d'Ivoire",
+    "date_demarrage": "Juillet - 2023",
+    "zones": ["Zones de culture du cacao en Côte d'Ivoire"],
+    "duree": {
+      "fr": "8 mois",
+      "en": "8 months"
+    },
+    "mots_cles": {
+      "fr": ["Agroforesterie", "Reforestation", "Audit", "Qualité", "Cacao"],
+      "en": ["Agroforestry", "Reforestation", "Audit", "Quality", "Cocoa"]
+    },
+    "image": "cache/projet_realise_audit-pur-800.webp",
+    "contexte": {
+      "fr": [
+        "Depuis 2019, PUR travaille avec des coopératives locales pour planter des arbres et améliorer la durabilité des cultures de cacao. Les audits réguliers permettent de contrôler la qualité des projets en veillant au respect des normes environnementales et agricoles."
+      ],
+      "en": [
+        "Since 2019, PUR has been working with local cooperatives to plant trees and improve the sustainability of cocoa crops. Regular audits help control project quality by ensuring compliance with environmental and agricultural standards."
+      ]
+    },
+    "objectifs": {
+      "fr": [
+        "Réaliser un audit conforme aux méthodologies et protocoles de PUR.",
+        "Évaluer la conformité du projet aux normes de qualité de PUR.",
+        "Identifier les bonnes pratiques, incohérences et données manquantes.",
+        "Formuler des recommandations et des actions correctives pour améliorer la mise en œuvre des projets."
+      ],
+      "en": [
+        "Conduct an audit in accordance with PUR methodologies and protocols.",
+        "Assess project compliance with PUR quality standards.",
+        "Identify good practices, inconsistencies and missing data.",
+        "Formulate recommendations and corrective actions to improve project implementation."
+      ]
+    },
+    "resultats": {
+      "fr": [
+        "Audit complet des projets d'agroforesterie et de reforestation réalisés par PUR.",
+        "Identification des bonnes pratiques et des incohérences dans la mise en œuvre.",
+        "Propositions d'actions correctives pour améliorer la gestion des coopératives et la distribution des incitations.",
+        "Suivi et évaluation des agriculteurs impliqués selon les protocoles établis."
+      ],
+      "en": [
+        "Complete audit of agroforestry and reforestation projects carried out by PUR.",
+        "Identification of good practices and inconsistencies in implementation.",
+        "Proposals for corrective actions to improve cooperative management and incentive distribution.",
+        "Monitoring and evaluation of involved farmers according to established protocols."
+      ]
+    },
+    "url": "portfolio.php?slug=mission-conseil-audit-agroforesterie-reforestation-pur",
+    "album": [
+      {
+        "titre": "Photo 1",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Vue générale de la réserve de Mabi-Yaya"
+      },
+      {
+        "titre": "Photo 2",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Producteurs de caoutchouc au travail"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "titre": {
+      "fr": "ÉVALUATION DE L'ENQUÊTE DE NÉCESSITÉ DANS LE PARC NATIONAL DE TAÏ",
+      "en": "EVALUATION OF THE NEEDS ASSESSMENT SURVEY IN TAÏ NATIONAL PARK"
+    },
+    "slug": "evaluation-enquete-necessite-bns-parc-taï",
+    "description": {
+      "fr": [
+        "L'objectif de cette mission était de mener une évaluation de l'enquête de nécessité (BNS) dans la zone riveraine du Parc national de Taï, afin de fournir des données de base sur le niveau de bien-être des communautés locales, les moyens de subsistance existants et les niveaux de pauvreté.",
+        "Cette évaluation visait également à clarifier l'engagement des communautés dans les activités forestières et les chaînes de valeur pertinentes pour l'intégrité écologique à long terme du parc."
+      ],
+      "en": [
+        "The objective of this mission was to conduct an evaluation of the basic needs survey (BNS) in the riparian zone of Taï National Park, to provide baseline data on the welfare level of local communities, existing livelihoods and poverty levels.",
+        "This evaluation also aimed to clarify community engagement in forestry activities and value chains relevant to the long-term ecological integrity of the park."
+      ]
+    },
+    "categorie": ["Reforestation"],
+    "partenaire": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ), Côte d'Ivoire",
+    "date_demarrage": "Août - 2023",
+    "zones": ["Parc national de Taï", "Zagné", "Taï", "Djouroutou"],
+    "duree": {
+      "fr": "2 mois",
+      "en": "2 months"
+    },
+    "mots_cles": {
+      "fr": ["BNS", "Évaluation", "Communautés riveraines", "Pauvreté", "Moyens de subsistance", "Gouvernance forestière"],
+      "en": ["BNS", "Evaluation", "Riparian communities", "Poverty", "Livelihoods", "Forest governance"]
+    },
+    "image": "cache/projet_realise_img0-1-800.webp",
+    "contexte": {
+      "fr": [
+        "Le projet soutient l'amélioration de la gestion des aires protégées du Complexe forestier de Taï-Grebo-Sapo (TGS) en fournissant des outils de gouvernance adaptés aux besoins des communautés locales et en facilitant une gestion transfrontalière des aires protégées."
+      ],
+      "en": [
+        "The project supports improving protected area management of the Taï-Grebo-Sapo Forest Complex (TGS) by providing governance tools adapted to local community needs and facilitating transboundary protected area management."
+      ]
+    },
+    "objectifs": {
+      "fr": [
+        "Mener une enquête auprès des communautés riveraines du Parc national de Taï pour recueillir des données socio-économiques.",
+        "Élaborer un rapport de référence sur les moyens de subsistance et les niveaux de pauvreté dans la zone riveraine.",
+        "Clarifier l'engagement des communautés locales dans les activités forestières et les chaînes de valeur importantes pour l'intégrité écologique du parc.",
+        "Faciliter les analyses transfrontalières des données collectées dans le complexe TGS."
+      ],
+      "en": [
+        "Conduct a survey among riparian communities of Taï National Park to gather socio-economic data.",
+        "Develop a baseline report on livelihoods and poverty levels in the riparian zone.",
+        "Clarify local community engagement in forestry activities and value chains important for the park's ecological integrity.",
+        "Facilitate cross-border analyses of data collected in the TGS complex."
+      ]
+    },
+    "resultats": {
+      "fr": [
+        "Collecte de données socio-économiques auprès de 15 communautés riveraines.",
+        "Élaboration d'un rapport de référence sur les moyens de subsistance et les niveaux de pauvreté.",
+        "Clarification de l'engagement communautaire dans les activités liées à la gestion du parc.",
+        "Présentation des résultats de manière comparable aux enquêtes BNS réalisées au Libéria."
+      ],
+      "en": [
+        "Collection of socio-economic data from 15 riparian communities.",
+        "Development of a baseline report on livelihoods and poverty levels.",
+        "Clarification of community engagement in park management-related activities.",
+        "Presentation of results in a manner comparable to BNS surveys conducted in Liberia."
+      ]
+    },
+    "url": "portfolio.php?slug=evaluation-enquete-necessite-bns-parc-taï",
+    "album": [
+      {
+        "titre": "Photo 1",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Vue générale de la réserve de Mabi-Yaya"
+      },
+      {
+        "titre": "Photo 2",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Producteurs de caoutchouc au travail"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "titre": {
+      "fr": "CARTOGRAPHIE DES PLANTATIONS DE CACAO DE LA COOPÉRATIVE ECAM",
+      "en": "MAPPING OF ECAM COOPERATIVE'S COCOA PLANTATIONS"
+    },
+    "slug": "cartographie-plantations-cacao-ecam",
+    "description": {
+      "fr": [
+        "La mission consistait à réaliser la cartographie des vergers de cacaoyers des producteurs affiliés à la coopérative ECAM, pour mieux connaître les surfaces exactes et la position des producteurs par rapport aux exigences de la réglementation de l'Union européenne en matière de déforestation.",
+        "Les travaux ont inclus des relevés GPS des parcelles, l'estimation des superficies, la production de fichiers cartographiques, et la vérification de la proximité des parcelles avec les forêts classées et zones protégées."
+      ],
+      "en": [
+        "The mission consisted of mapping cocoa orchards of producers affiliated with the ECAM cooperative, to better understand exact areas and producer positions relative to European Union deforestation regulation requirements.",
+        "The work included GPS surveys of plots, area estimation, production of cartographic files, and verification of plot proximity to classified forests and protected areas."
+      ]
+    },
+    "categorie": ["Agroforesterie"],
+    "partenaire": "Coopérative d'Agriculteurs de Méagui (ECAM COOP-CA), Côte d'Ivoire",
+    "date_demarrage": "Mai - 2023",
+    "zones": ["Méagui", "Soubré", "Sassandra"],
+    "duree": {
+      "fr": "3 mois",
+      "en": "3 months"
+    },
+    "mots_cles": {
+      "fr": ["Cartographie", "Cacao", "GPS", "Forêts classées", "Réglementation EU"],
+      "en": ["Mapping", "Cocoa", "GPS", "Classified forests", "EU Regulation"]
+    },
+    "image": "cache/projet_realise_realiser-1-800.webp",
+    "contexte": {
+      "fr": [
+        "La mission a été menée en réponse à la demande de la coopérative ECAM pour mieux connaître la position des plantations de cacao des producteurs et s'assurer de leur conformité avec les exigences de l'Union européenne en matière de déforestation."
+      ],
+      "en": [
+        "The mission was conducted in response to ECAM cooperative's request to better understand producer cocoa plantation positions and ensure their compliance with European Union deforestation requirements."
+      ]
+    },
+    "objectifs": {
+      "fr": [
+        "Réaliser des relevés GPS des parcelles de cacao.",
+        "Estimer les superficies des parcelles étudiées.",
+        "Produire des fichiers cartographiques des parcelles.",
+        "Vérifier la proximité des parcelles avec les forêts classées et les aires protégées."
+      ],
+      "en": [
+        "Conduct GPS surveys of cocoa plots.",
+        "Estimate areas of studied plots.",
+        "Produce cartographic files of plots.",
+        "Verify plot proximity to classified forests and protected areas."
+      ]
+    },
+    "resultats": {
+      "fr": [
+        "Cartographie précise des vergers de cacao des producteurs affiliés.",
+        "Estimation des superficies et vérification des critères de conformité avec la réglementation européenne."
+      ],
+      "en": [
+        "Precise mapping of affiliated producer cocoa orchards.",
+        "Area estimation and verification of compliance criteria with European regulation."
+      ]
+    },
+    "url": "portfolio.php?slug=cartographie-plantations-cacao-ecam",
+    "album": [
+      {
+        "titre": "Photo 1",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Vue générale de la réserve de Mabi-Yaya"
+      },
+      {
+        "titre": "Photo 2",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Producteurs de caoutchouc au travail"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "titre": {
+      "fr": "PRODUCTION ET PLANTATION D'ARBRES D'OMBRAGE",
+      "en": "PRODUCTION AND PLANTING OF SHADE TREES"
+    },
+    "slug": "production-transport-plantation-arbres-ombrage",
+    "description": {
+      "fr": [
+        "Cette mission consistait en la fourniture, le transport, le reboisement et la création de parcelles agroforestières dans le cadre du programme de reforestation 2023 de l'ONG AGIR.",
+        "L'objectif principal était de produire 10 000 plants d'arbres d'ombrage, de les transporter et de les planter dans des zones ciblées pour la reforestation."
+      ],
+      "en": [
+        "This mission consisted of supplying, transporting, reforesting and creating agroforestry plots within the framework of the 2023 reforestation program of the NGO AGIR.",
+        "The main objective was to produce 10,000 shade tree seedlings, transport them and plant them in targeted areas for reforestation."
+      ]
+    },
+    "categorie": ["Reforestation","Agroforesterie"],
+    "partenaire": "African Global Impact Raiser (AGIR), Côte d'Ivoire",
+    "date_demarrage": "Mai - 2023",
+    "zones": ["Abengourou"],
+    "duree": {
+      "fr": "3 mois",
+      "en": "3 months"
+    },
+    "mots_cles": {
+      "fr": ["Reforestation", "Plantation", "Agroforesterie", "Environnement"],
+      "en": ["Reforestation", "Planting", "Agroforestry", "Environment"]
+    },
+    "image": "cache/production-transport-plantation-arbres-ombrage-800.webp",
+    "contexte": {
+      "fr": [
+        "L'ONG AGIR a mis en place un programme de reforestation 2023 et a sollicité AGRIFORLAND pour la production, le transport et la plantation d'arbres d'ombrage dans le cadre de ce programme."
+      ],
+      "en": [
+        "The NGO AGIR has set up a 2023 reforestation program and has requested AGRIFORLAND for the production, transport and planting of shade trees within this program."
+      ]
+    },
+    "objectifs": {
+      "fr": [
+        "Produire 10 000 semis d'arbres d'ombrage.",
+        "Transporter les pépinières vers les sites de plantation.",
+        "Effectuer le reboisement dans des zones ciblées pour la création de parcelles agroforestières."
+      ],
+      "en": [
+        "Produce 10,000 shade tree seedlings.",
+        "Transport nurseries to planting sites.",
+        "Carry out reforestation in targeted areas for the creation of agroforestry plots."
+      ]
+    },
+    "resultats": {
+      "fr": [
+        "Production et transport réussis de 10 000 semis d'arbres d'ombrage.",
+        "Création de parcelles agroforestières pour la reforestation et la protection de l'environnement."
+      ],
+      "en": [
+        "Successful production and transport of 10,000 shade tree seedlings.",
+        "Creation of agroforestry plots for reforestation and environmental protection."
+      ]
+    },
+    "url": "portfolio.php?slug=production-transport-plantation-arbres-ombrage",
+    "album": [
+      {
+        "titre": "Photo 1",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Vue générale de la réserve de Mabi-Yaya"
+      },
+      {
+        "titre": "Photo 2",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Producteurs de caoutchouc au travail"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "titre": {
+      "fr": "SOUTIEN AU PROJET CRAFT SUR LE CACAO",
+      "en": "SUPPORT FOR THE CRAFT COCOA PROJECT"
+    },
+    "slug": "soutenir-projet-craft-collecte-donnees-cacao",
+    "description": {
+      "fr": [
+        "Dans le cadre du projet CRAFT (Cocoa Agroforestry for Resilient Transformation), AGRIFORLAND a soutenu la collecte de données sur 75 exploitations agricoles de cacao situées dans trois régions de la Côte d'Ivoire : Meagui, Bongouanou et Vavoua.",
+        "L'objectif principal de cette mission est d'évaluer l'empreinte carbone des systèmes agroforestiers et de proposer des options d'amélioration des pratiques agricoles pour les producteurs de cacao."
+      ],
+      "en": [
+        "Within the framework of the CRAFT project (Cocoa Agroforestry for Resilient Transformation), AGRIFORLAND supported data collection on 75 cocoa farms located in three regions of Côte d'Ivoire: Meagui, Bongouanou and Vavoua.",
+        "The main objective of this mission is to assess the carbon footprint of agroforestry systems and propose options for improving agricultural practices for cocoa producers."
+      ]
+    },
+    "categorie": ["Reforestation","Agroforesterie"],
+    "partenaire": "Alliance Bioversity-CIAT",
+    "date_demarrage": "Juillet - 2024",
+    "zones": ["Meagui", "Bongouanou", "Vavoua"],
+    "duree": {
+      "fr": "12 mois",
+      "en": "12 months"
+    },
+    "mots_cles": {
+      "fr": ["Cacao", "Agroforesterie", "Collecte de données", "Empreinte carbone", "Systèmes agroforestiers"],
+      "en": ["Cocoa", "Agroforestry", "Data collection", "Carbon footprint", "Agroforestry systems"]
+    },
+    "image": "cache/projet_realise_le-800.webp",
+    "contexte": {
+      "fr": [
+        "Le projet CRAFT en Afrique de l'Ouest vise à améliorer les systèmes agroforestiers dans les exploitations de cacao en évaluant leur évolution, leurs pratiques agricoles et leurs rendements. Les données collectées sont utilisées pour analyser l'empreinte carbone et identifier des interventions possibles pour améliorer la rentabilité et la durabilité des exploitations."
+      ],
+      "en": [
+        "The CRAFT project in West Africa aims to improve agroforestry systems in cocoa farms by assessing their evolution, agricultural practices and yields. The collected data is used to analyze carbon footprint and identify possible interventions to improve farm profitability and sustainability."
+      ]
+    },
+    "objectifs": {
+      "fr": [
+        "Caractériser les systèmes agroforestiers du cacao dans plusieurs zones agroécologiques.",
+        "Analyser les déterminants des rendements en cacao et de la rentabilité des systèmes agricoles.",
+        "Évaluer l'empreinte carbone et le stock de carbone des systèmes agroforestiers.",
+        "Étudier la dynamique temporelle de la rentabilité et des relations entre les émissions de GES et la séquestration du carbone.",
+        "Effectuer des analyses de sol et de litière pour déterminer les propriétés chimiques et physiques."
+      ],
+      "en": [
+        "Characterize cocoa agroforestry systems in several agroecological zones.",
+        "Analyze determinants of cocoa yields and agricultural system profitability.",
+        "Assess carbon footprint and carbon stock of agroforestry systems.",
+        "Study temporal dynamics of profitability and relationships between GHG emissions and carbon sequestration.",
+        "Conduct soil and litter analyses to determine chemical and physical properties."
+      ]
+    },
+    "resultats": {
+      "fr": [
+        "Collecte de données sur les rendements, la structure végétale et l'empreinte carbone des exploitations de cacao.",
+        "Analyse approfondie des impacts des systèmes agroforestiers sur la rentabilité et l'environnement des producteurs de cacao."
+      ],
+      "en": [
+        "Data collection on yields, plant structure and carbon footprint of cocoa farms.",
+        "In-depth analysis of agroforestry system impacts on cocoa producer profitability and environment."
+      ]
+    },
+    "url": "portfolio.php?slug=soutenir-projet-craft-collecte-donnees-cacao",
+    "album": [
+      {
+        "titre": "Photo 1",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Vue générale de la réserve de Mabi-Yaya"
+      },
+      {
+        "titre": "Photo 2",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Producteurs de caoutchouc au travail"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "titre": {
+      "fr": "POLITIQUE CLIMATIQUE POUR LES CACAOCULTEURS",
+      "en": "CLIMATE POLICY FOR COCOA FARMERS"
+    },
+    "slug": "politique-climatique-centree-cacaoculteurs",
+    "description": {
+      "fr": [
+        "Le projet vise à analyser l'impact du changement climatique sur les producteurs de cacao en Côte d'Ivoire et au Ghana, tout en proposant des politiques de gouvernance adaptées aux besoins spécifiques des producteurs de cacao dans ces pays.",
+        "Il se concentre sur l'évaluation du différentiel de revenu vital (DFI) et ses effets sur les conditions de vie des producteurs, ainsi que sur la formulation de recommandations pour une politique climatique centrée sur les cacaoculteurs."
+      ],
+      "en": [
+        "The project aims to analyze the impact of climate change on cocoa producers in Côte d'Ivoire and Ghana, while proposing governance policies adapted to the specific needs of cocoa producers in these countries.",
+        "It focuses on assessing the living income differential (LID) and its effects on producer living conditions, as well as formulating recommendations for a climate policy centered on cocoa farmers."
+      ]
+    },
+    "categorie": ["Reforestation","Agroforesterie"],
+    "partenaire": "Motsepe Presidential Research Accelerator Fund for Africa (Université de Harvard)",
+    "date_demarrage": "Septembre - 2024",
+    "zones": ["Côte d'ivoire(Bongouanou, Meagui)"],
+    "duree": {
+      "fr": "22 mois",
+      "en": "22 months"
+    },
+    "mots_cles": {
+      "fr": ["Changement climatique", "Cacao", "Producteurs", "Politiques climatiques", "Côte d'Ivoire", "Ghana"],
+      "en": ["Climate change", "Cocoa", "Producers", "Climate policies", "Côte d'Ivoire", "Ghana"]
+    },
+    "image": "cache/projet_realise_le1-800.webp",
+    "contexte": {
+      "fr": [
+        "Le changement climatique a un impact majeur sur les producteurs de cacao en Côte d'Ivoire et au Ghana, deux des plus grands producteurs mondiaux. Ce projet cherche à identifier des politiques adaptées à ces producteurs pour mieux gérer les effets du changement climatique, améliorer leurs conditions de vie et soutenir la durabilité de la production de cacao dans ces régions."
+      ],
+      "en": [
+        "Climate change has a major impact on cocoa producers in Côte d'Ivoire and Ghana, two of the world's largest producers. This project seeks to identify policies adapted to these producers to better manage the effects of climate change, improve their living conditions and support the sustainability of cocoa production in these regions."
+      ]
+    },
+    "objectifs": {
+      "fr": [
+        "Analyser l'impact du changement climatique sur les producteurs de cacao en Côte d'Ivoire et au Ghana.",
+        "Évaluer le différentiel de revenu vital (DFI) et ses effets sur les conditions de vie des producteurs.",
+        "Formuler des recommandations pour une politique climatique adaptée aux cacaoculteurs.",
+        "Réaliser des études de terrain et des collectes de données dans plusieurs régions des deux pays.",
+        "Organiser des ateliers et des webinaires pour partager les résultats avec les parties prenantes."
+      ],
+      "en": [
+        "Analyze the impact of climate change on cocoa producers in Côte d'Ivoire and Ghana.",
+        "Assess the living income differential (LID) and its effects on producer living conditions.",
+        "Formulate recommendations for a climate policy adapted to cocoa farmers.",
+        "Conduct field studies and data collection in several regions of both countries.",
+        "Organize workshops and webinars to share results with stakeholders."
+      ]
+    },
+    "resultats": {
+      "fr": [
+        "Collecte de données et entretiens avec 120 producteurs de cacao dans 4 régions.",
+        "Analyse des politiques existantes et recommandations pour une gouvernance climatique adaptée.",
+        "Organisation d'ateliers et de webinaires pour présenter les résultats aux parties prenantes."
+      ],
+      "en": [
+        "Data collection and interviews with 120 cocoa producers in 4 regions.",
+        "Analysis of existing policies and recommendations for adapted climate governance.",
+        "Organization of workshops and webinars to present results to stakeholders."
+      ]
+    },
+    "url": "portfolio.php?slug=politique-climatique-centree-cacaoculteurs",
+    "album": [
+      {
+        "titre": "Photo 1",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Vue générale de la réserve de Mabi-Yaya"
+      },
+      {
+        "titre": "Photo 2",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Producteurs de caoutchouc au travail"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "titre": {
+      "fr": "CRÉATION D'UNE FERME-ÉCOLE À DIMBOKRO",
+      "en": "CREATION OF A FARM-SCHOOL IN DIMBOKRO"
+    },
+    "slug": "ferme-ecole-adou-dimbokro",
+    "description": {
+      "fr": [
+        "Le projet vise à créer et développer une ferme-école moderne et pédagogique à Adaou, dans la sous-préfecture d'Abigui (Dimbokro). Ce projet englobe des activités agricoles et d'élevage visant à promouvoir le développement durable, améliorer la sécurité alimentaire et renforcer les compétences locales dans ces domaines.",
+        "Il prévoit la culture de plantes alimentaires et médicinales, l'élevage d'animaux divers, la mise en place d'infrastructures et de systèmes de production, ainsi que la création de partenariats pour le développement de la ferme."
+      ],
+      "en": [
+        "The project aims to create and develop a modern and pedagogical farm-school in Adaou, in the sub-prefecture of Abigui (Dimbokro). This project encompasses agricultural and livestock activities aimed at promoting sustainable development, improving food security and strengthening local skills in these areas.",
+        "It includes cultivation of food and medicinal plants, raising various animals, establishing infrastructure and production systems, as well as creating partnerships for farm development."
+      ]
+    },
+    "categorie": ["Developpement Durable"],
+    "partenaire": "AGRIFORLAND SARL",
+    "date_demarrage": "Décembre - 2024",
+    "zones": ["Dimbokro"],
+    "duree": {
+      "fr": "En cours",
+      "en": "Ongoing"
+    },
+    "mots_cles": {
+      "fr": ["Ferme-école", "Agriculture", "Élevage", "Sécurité alimentaire", "Formation", "Développement durable"],
+      "en": ["Farm-school", "Agriculture", "Livestock", "Food security", "Training", "Sustainable development"]
+    },
+    "image": "cache/de1-800.webp",
+    "contexte": {
+      "fr": [
+        "Le projet est situé dans la sous-préfecture d'Adaou, à Dimbokro, et vise à créer un modèle de ferme-école qui combine à la fois l'agriculture et l'élevage. Il vise à renforcer les capacités locales en matière d'agriculture durable tout en répondant aux besoins de sécurité alimentaire dans la région."
+      ],
+      "en": [
+        "The project is located in the sub-prefecture of Adaou, in Dimbokro, and aims to create a farm-school model that combines both agriculture and livestock. It aims to strengthen local capacities in sustainable agriculture while addressing food security needs in the region."
+      ]
+    },
+    "objectifs": {
+      "fr": [
+        "Créer une ferme-école moderne et pédagogique.",
+        "Développer des infrastructures agricoles et d'élevage.",
+        "Former et renforcer les compétences locales en agriculture et en élevage.",
+        "Promouvoir la sécurité alimentaire et le développement durable.",
+        "Mettre en place des unités de transformation pour valoriser les produits agricoles et animaux.",
+        "Organiser des formations et des ateliers techniques.",
+        "Mettre en place un réseau de commercialisation de produits."
+      ],
+      "en": [
+        "Create a modern and pedagogical farm-school.",
+        "Develop agricultural and livestock infrastructure.",
+        "Train and strengthen local skills in agriculture and livestock.",
+        "Promote food security and sustainable development.",
+        "Establish processing units to add value to agricultural and animal products.",
+        "Organize training and technical workshops.",
+        "Establish a product marketing network."
+      ]
+    },
+    "resultats": {
+      "fr": [
+        "Aménagement du territoire et construction d'infrastructures.",
+        "Mise en place de systèmes agricoles (cultures vivrières, pépinières, plantations).",
+        "Établissement d'élevages variés (escargots, volailles, cochons, etc.).",
+        "Lancement des activités piscicoles avec la gestion des étangs.",
+        "Création de partenariats et mobilisation des ressources.",
+        "Formation et développement de compétences locales.",
+        "Mise en place d'unités de transformation pour valoriser les produits."
+      ],
+      "en": [
+        "Land development and infrastructure construction.",
+        "Implementation of agricultural systems (food crops, nurseries, plantations).",
+        "Establishment of various livestock (snails, poultry, pigs, etc.).",
+        "Launch of aquaculture activities with pond management.",
+        "Creation of partnerships and resource mobilization.",
+        "Training and development of local skills.",
+        "Establishment of processing units to add value to products."
+      ]
+    },
+    "url": "portfolio.php?slug=ferme-ecole-adou-dimbokro",
+    "album": [
+      {
+        "titre": "Photo 1",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Vue générale de la réserve de Mabi-Yaya"
+      },
+      {
+        "titre": "Photo 2",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Producteurs de caoutchouc au travail"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "titre": {
+      "fr": "CARTOGRAPHIE DES PRODUCTEURS DE CAOUTCHOUC EN ZONE MONTAGNEUSE",
+      "en": "MAPPING OF RUBBER PRODUCERS IN THE MOUNTAINOUS REGION"
+    },
+    "slug": "cartographie-producteurs-caoutchouc-district-montagneux",
+    "description": {
+      "fr": [
+        "La mission consiste à réaliser une cartographie détaillée des parcelles de caoutchouc pour 35 000 producteurs affiliés à des coopératives dans le district montagneux de Côte d'Ivoire. Ce projet vise à assurer l'exactitude des registres et à mettre à jour les informations des producteurs.",
+        "Les prestations incluent la cartographie des parcelles, l'enregistrement des producteurs et la génération de fichiers cartographiques complets détaillant chaque parcelle."
+      ],
+      "en": [
+        "The mission consists of creating detailed mapping of rubber plots for 35,000 producers affiliated with cooperatives in the mountainous district of Côte d'Ivoire. This project aims to ensure registry accuracy and update producer information.",
+        "Services include plot mapping, producer registration and generation of complete cartographic files detailing each plot."
+      ]
+    },
+    "categorie": ["Agroforesterie","En Cours"],
+    "partenaire": "OLAM RUBBER AGRI",
+    "date_demarrage": "Août 2024",
+    "zones": ["Tonkpi","Cavally"],
+    "duree": {
+      "fr": "En cours",
+      "en": "Ongoing"
+    },
+    "mots_cles": {
+      "fr": ["Caoutchouc", "Cartographie", "Producteurs", "District montagneux", "Agriculture", "SIG"],
+      "en": ["Rubber", "Mapping", "Producers", "Mountainous district", "Agriculture", "GIS"]
+    },
+    "image": "cache/projet_realise_cato-1-800.webp",
+    "contexte": {
+      "fr": [
+        "La mission se déroule dans le district montagneux de la Côte d'Ivoire et a pour objectif de cartographier les parcelles de caoutchouc de 35 000 producteurs. Cela permet d'assurer une gestion plus efficace des terres agricoles et de répondre aux exigences des coopératives."
+      ],
+      "en": [
+        "The mission takes place in the mountainous district of Côte d'Ivoire and aims to map rubber plots of 35,000 producers. This enables more efficient agricultural land management and meets cooperative requirements."
+      ]
+    },
+    "objectifs": {
+      "fr": [
+        "Réaliser une cartographie détaillée des parcelles de caoutchouc.",
+        "Enregistrer les 35 000 producteurs affiliés aux coopératives.",
+        "Mettre à jour et assurer l'exactitude des registres des producteurs.",
+        "Générer des fichiers cartographiques complets pour chaque producteur."
+      ],
+      "en": [
+        "Create detailed mapping of rubber plots.",
+        "Register the 35,000 producers affiliated with cooperatives.",
+        "Update and ensure accuracy of producer registries.",
+        "Generate complete cartographic files for each producer."
+      ]
+    },
+    "resultats": {
+      "fr": [
+        "Cartographie détaillée des parcelles des producteurs de caoutchouc.",
+        "Enregistrement de 35 000 producteurs et mise à jour des informations.",
+        "Création de fichiers cartographiques détaillant chaque parcelle associée à un producteur."
+      ],
+      "en": [
+        "Detailed mapping of rubber producer plots.",
+        "Registration of 35,000 producers and information updating.",
+        "Creation of cartographic files detailing each plot associated with a producer."
+      ]
+    },
+    "url": "portfolio.php?slug=cartographie-producteurs-caoutchouc-district-montagneux",
+    "album": [
+      {
+        "titre": "Photo 1",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Vue générale de la réserve de Mabi-Yaya"
+      },
+      {
+        "titre": "Photo 2",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Producteurs de caoutchouc au travail"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "titre": {
+      "fr": "CONSEIL EN COMMUNICATION POUR LE PROJET HIAP",
+      "en": "COMMUNICATION CONSULTING FOR THE HIAP PROJECT"
+    },
+    "slug": "conseil-communication-projet-hiap-cote-ivoire",
+    "description": {
+      "fr": [
+        "La mission consiste à élaborer et mettre en œuvre un plan de communication pour le projet HIAP (Hershey Income Accelerator Program) en Côte d'Ivoire. Le projet vise à améliorer la résilience des familles de producteurs de cacao dans la chaîne d'approvisionnement de Hershey et à promouvoir des pratiques agricoles régénératrices.",
+        "Les prestations incluent la sensibilisation des parties prenantes, la couverture médiatique, et l'évaluation de l'efficacité des activités de communication pour atteindre les objectifs du programme."
+      ],
+      "en": [
+        "The mission consists of developing and implementing a communication plan for the HIAP (Hershey Income Accelerator Program) project in Côte d'Ivoire. The project aims to improve the resilience of cocoa producer families in Hershey's supply chain and promote regenerative agricultural practices.",
+        "Services include stakeholder awareness, media coverage, and evaluation of communication activity effectiveness to achieve program objectives."
+      ]
+    },
+    "categorie": ["Reforestation","Agroforesterie"],
+    "partenaire": "Rainforest Alliance",
+    "date_demarrage": "Novembre 2024",
+    "zones": ["ABengourou","Zagné"],
+    "duree": {
+      "fr": "4 mois",
+      "en": "4 months"
+    },
+    "mots_cles": {
+      "fr": ["Communication", "Agroforesterie", "Cacao", "HIAP", "Sensibilisation", "RSE"],
+      "en": ["Communication", "Agroforestry", "Cocoa", "HIAP", "Awareness", "CSR"]
+    },
+    "image": "cache/projet_realise_conseil-1-800.webp",
+    "contexte": {
+      "fr": [
+        "Le programme HIAP, financé par Hershey, vise à améliorer les conditions de vie des producteurs de cacao en Côte d'Ivoire tout en favorisant l'adoption de pratiques agricoles régénératrices. La mission consiste à gérer la communication et la visibilité du projet."
+      ],
+      "en": [
+        "The HIAP program, funded by Hershey, aims to improve the living conditions of cocoa producers in Côte d'Ivoire while promoting the adoption of regenerative agricultural practices. The mission consists of managing project communication and visibility."
+      ]
+    },
+    "objectifs": {
+      "fr": [
+        "Élaborer un plan de communication efficace pour le projet HIAP.",
+        "Informer et sensibiliser les parties prenantes et le public sur les objectifs et résultats du projet.",
+        "Mettre en évidence les initiatives d'inclusion sociale et les avantages pour les communautés locales.",
+        "Assurer une couverture médiatique adéquate pour accroître la visibilité du projet.",
+        "Mesurer l'efficacité des activités de communication."
+      ],
+      "en": [
+        "Develop an effective communication plan for the HIAP project.",
+        "Inform and raise awareness among stakeholders and the public about project objectives and results.",
+        "Highlight social inclusion initiatives and benefits for local communities.",
+        "Ensure adequate media coverage to increase project visibility.",
+        "Measure the effectiveness of communication activities."
+      ]
+    },
+    "resultats": {
+      "fr": [
+        "Plan de communication élaboré et mis en œuvre.",
+        "Sensibilisation réussie des parties prenantes et du public.",
+        "Visibilité accrue du projet grâce à une couverture médiatique.",
+        "Évaluation de l'efficacité des activités de communication pour garantir l'atteinte des objectifs."
+      ],
+      "en": [
+        "Communication plan developed and implemented.",
+        "Successful stakeholder and public awareness.",
+        "Increased project visibility through media coverage.",
+        "Evaluation of communication activity effectiveness to ensure objective achievement."
+      ]
+    },
+    "url": "portfolio.php?slug=conseil-communication-projet-hiap-cote-ivoire",
+    "album": [
+      {
+        "titre": "Photo 1",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Vue générale de la réserve de Mabi-Yaya"
+      },
+      {
+        "titre": "Photo 2",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Producteurs de caoutchouc au travail"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "titre": {
+      "fr": "CARTOGRAPHIE DE L'OCCUPATION DU SOL À BOSSÉMATIÉ",
+      "en": "LAND USE MAPPING IN BOSSÉMATIÉ"
+    },
+    "slug": "cartographie-occupation-sol-bossematie",
+    "description": {
+      "fr": [
+        "Le projet consiste à élaborer une cartographie détaillée de l'occupation du sol dans la zone tampon de la Réserve Naturelle de Bossématié, en Côte d'Ivoire. L'objectif est de cartographier les zones sensibles et de proposer des mesures adaptées pour la préservation de la biodiversité et la lutte contre la déforestation.",
+        "Les prestations incluent l'identification des zones à risque de déforestation, la quantification des zones affectées et la proposition de solutions de reboisement."
+      ],
+      "en": [
+        "The project consists of developing detailed land use mapping in the buffer zone of the Bossématié Natural Reserve in Côte d'Ivoire. The objective is to map sensitive areas and propose appropriate measures for biodiversity preservation and deforestation control.",
+        "Services include identification of deforestation risk areas, quantification of affected areas and proposal of reforestation solutions."
+      ]
+    },
+    "categorie": ["Developpement Durable","En Cours"],
+    "partenaire": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ)",
+    "date_demarrage": "Août 2024",
+    "zones": ["ABengourou(Bossématié)"],
+    "duree": {
+      "fr": "4 mois",
+      "en": "4 months"
+    },
+    "mots_cles": {
+      "fr": ["Cartographie", "Déforestation", "Biodiversité", "Agroforesterie", "GIZ", "Préservation"],
+      "en": ["Mapping", "Deforestation", "Biodiversity", "Agroforestry", "GIZ", "Preservation"]
+    },
+    "image": "cache/projet_realise_catog-1-800.webp",
+    "contexte": {
+      "fr": [
+        "Le projet vise à soutenir la lutte contre la déforestation en Côte d'Ivoire, particulièrement dans la zone tampon de la Réserve Naturelle de Bossématié, à travers la cartographie de l'occupation du sol et l'identification de mesures de reboisement."
+      ],
+      "en": [
+        "The project aims to support the fight against deforestation in Côte d'Ivoire, particularly in the buffer zone of the Bossématié Natural Reserve, through land use mapping and identification of reforestation measures."
+      ]
+    },
+    "objectifs": {
+      "fr": [
+        "Réaliser une cartographie précise de l'occupation du sol dans la zone tampon.",
+        "Identifier les alertes de déforestation des deux dernières années et quantifier les zones touchées.",
+        "Déterminer les zones propices au reboisement et au boisement.",
+        "Identifier les producteurs à risque de déforestation et évaluer leurs pratiques agroforestières.",
+        "Proposer des mesures de prévention de la déforestation adaptées aux producteurs identifiés."
+      ],
+      "en": [
+        "Conduct precise land use mapping in the buffer zone.",
+        "Identify deforestation alerts from the past two years and quantify affected areas.",
+        "Determine areas suitable for reforestation and afforestation.",
+        "Identify producers at risk of deforestation and assess their agroforestry practices.",
+        "Propose deforestation prevention measures adapted to identified producers."
+      ]
+    },
+    "resultats": {
+      "fr": [
+        "Cartographie détaillée de l'occupation du sol réalisée.",
+        "Zones de déforestation identifiées et quantifiées.",
+        "Propositions de reboisement adaptées aux zones et aux producteurs.",
+        "Mesures de prévention de la déforestation proposées."
+      ],
+      "en": [
+        "Detailed land use mapping completed.",
+        "Deforestation areas identified and quantified.",
+        "Reforestation proposals adapted to areas and producers.",
+        "Deforestation prevention measures proposed."
+      ]
+    },
+    "url": "portfolio.php?slug=cartographie-occupation-sol-bossematie",
+    "album": [
+      {
+        "titre": "Photo 1",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Vue générale de la réserve de Mabi-Yaya"
+      },
+      {
+        "titre": "Photo 2",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Producteurs de caoutchouc au travail"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "titre": {
+      "fr": "CONSEIL EN COMMUNICATION POUR LE PROJET RESTORE",
+      "en": "COMMUNICATION CONSULTING FOR THE RESTORE PROJECT"
+    },
+    "slug": "conseil-communication-restor-cote-ivoire",
+    "description": {
+      "fr": [
+        "Le projet RESTORE se concentre sur les défis liés aux paysages producteurs de cacao en Côte d'Ivoire et au Ghana, en mettant l'accent sur la culture durable du cacao, la conservation de la biodiversité et l'inclusion sociale. La mission consiste à élaborer et mettre en œuvre un plan de communication pour sensibiliser les parties prenantes et le public aux objectifs et aux réalisations du projet.",
+        "Les prestations incluent la communication des pratiques de production durable de cacao et des efforts de conservation de la biodiversité, avec un accent sur l'inclusion sociale et la visibilité médiatique."
+      ],
+      "en": [
+        "The RESTORE project focuses on challenges related to cocoa-producing landscapes in Côte d'Ivoire and Ghana, emphasizing sustainable cocoa cultivation, biodiversity conservation and social inclusion. The mission consists of developing and implementing a communication plan to raise awareness among stakeholders and the public about project objectives and achievements.",
+        "Services include communication of sustainable cocoa production practices and biodiversity conservation efforts, with emphasis on social inclusion and media visibility."
+      ]
+    },
+    "categorie": ["Developpement Durable","En Cours"],
+    "partenaire": "Rainforest Alliance",
+    "date_demarrage": "Août 2024",
+    "zones": ["ABengourou","Adjoville","Taï"],
+    "duree": {
+      "fr": "5 mois",
+      "en": "5 months"
+    },
+    "mots_cles": {
+      "fr": ["Communication", "Cacao durable", "Biodiversité", "Inclusion sociale", "Déforestation", "Reboisement"],
+      "en": ["Communication", "Sustainable cocoa", "Biodiversity", "Social inclusion", "Deforestation", "Reforestation"]
+    },
+    "image": "cache/projet_realise_conseil1-1-800.webp",
+    "contexte": {
+      "fr": [
+        "Le projet RESTORE vise à renforcer la durabilité dans la production de cacao en Côte d'Ivoire et au Ghana, tout en préservant la biodiversité et en soutenant les communautés locales par des pratiques agroforestières durables."
+      ],
+      "en": [
+        "The RESTORE project aims to strengthen sustainability in cocoa production in Côte d'Ivoire and Ghana, while preserving biodiversity and supporting local communities through sustainable agroforestry practices."
+      ]
+    },
+    "objectifs": {
+      "fr": [
+        "Élaborer un plan de communication efficace pour le projet RESTORE.",
+        "Sensibiliser le public et les parties prenantes aux objectifs, activités et résultats du projet.",
+        "Mettre en valeur les pratiques de production durable de cacao et les efforts de conservation de la biodiversité.",
+        "Promouvoir l'inclusion sociale et les avantages pour les communautés locales.",
+        "Assurer une couverture médiatique appropriée pour accroître la visibilité du projet.",
+        "Évaluer l'efficacité des activités de communication."
+      ],
+      "en": [
+        "Develop an effective communication plan for the RESTORE project.",
+        "Raise awareness among the public and stakeholders about project objectives, activities and results.",
+        "Highlight sustainable cocoa production practices and biodiversity conservation efforts.",
+        "Promote social inclusion and benefits for local communities.",
+        "Ensure appropriate media coverage to increase project visibility.",
+        "Evaluate the effectiveness of communication activities."
+      ]
+    },
+    "resultats": {
+      "fr": [
+        "Plan de communication élaboré et mis en œuvre.",
+        "Sensibilisation accrue du public et des parties prenantes.",
+        "Meilleure visibilité des pratiques agricoles durables et de la conservation de la biodiversité.",
+        "Participation des communautés locales renforcée.",
+        "Évaluation de l'efficacité des actions de communication réalisée."
+      ],
+      "en": [
+        "Communication plan developed and implemented.",
+        "Increased public and stakeholder awareness.",
+        "Better visibility of sustainable agricultural practices and biodiversity conservation.",
+        "Strengthened local community participation.",
+        "Evaluation of communication action effectiveness completed."
+      ]
+    },
+    "url": "portfolio.php?slug=conseil-communication-restor-cote-ivoire",
+    "album": [
+      {
+        "titre": "Photo 1",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Vue générale de la réserve de Mabi-Yaya"
+      },
+      {
+        "titre": "Photo 2",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Producteurs de caoutchouc au travail"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "titre": {
+      "fr": "ACQUISITION D'IMAGES SATELLITAIRES POUR LE MÉCANISME MRV",
+      "en": "SATELLITE IMAGE ACQUISITION FOR THE MRV MECHANISM"
+    },
+    "slug": "acquisition-images-satellitaires-mrv",
+    "description": {
+      "fr": [
+        "Dans le cadre du programme « Gouvernance et Gestion Durable des Ressources Naturelles dans les Régions du Tai et de la Comoé », cette mission vise à mettre en place un mécanisme de mesure, de reporting et de vérification (MRV) pour évaluer l'impact du modèle agroforestier sur la réduction des émissions de gaz à effet de serre. L'objectif est d'acquérir et de traiter des images satellites pour quantifier le bilan carbone des plantations agroforestières.",
+        "Les prestations incluent la sélection et l'acquisition d'images satellites Skysat, ainsi que l'analyse et la vérification des données pour un suivi rigoureux des émissions."
+      ],
+      "en": [
+        "Within the framework of the program 'Governance and Sustainable Management of Natural Resources in the Tai and Comoé Regions', this mission aims to establish a monitoring, reporting and verification (MRV) mechanism to assess the impact of the agroforestry model on greenhouse gas emission reduction. The objective is to acquire and process satellite images to quantify the carbon balance of agroforestry plantations.",
+        "Services include selection and acquisition of Skysat satellite images, as well as data analysis and verification for rigorous emission monitoring."
+      ]
+    },
+    "categorie": ["En Cours","Elevage"],
+    "partenaire": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ)",
+    "date_demarrage": "Mars 2024",
+    "date_achèvement": "Juin 2024",
+    "zones": ["Comoé","Taï"],
+    "duree": {
+      "fr": "3 mois",
+      "en": "3 months"
+    },
+    "mots_cles": {
+      "fr": ["Images satellites", "Agroforesterie", "MRV", "Bilan carbone", "Réduction des émissions", "Gouvernance durable"],
+      "en": ["Satellite images", "Agroforestry", "MRV", "Carbon balance", "Emission reduction", "Sustainable governance"]
+    },
+    "image": "cache/projet_realise_img2-1-800.webp",
+    "contexte": {
+      "fr": [
+        "Ce projet vise à fournir des données précises sur les plantations agroforestières dans les régions du Tai et de la Comoé afin de quantifier l'impact du modèle agroforestier sur la réduction des émissions de gaz à effet de serre. Les données obtenues à partir des images satellites permettront d'optimiser la gestion durable des ressources naturelles."
+      ],
+      "en": [
+        "This project aims to provide accurate data on agroforestry plantations in the Tai and Comoé regions to quantify the impact of the agroforestry model on greenhouse gas emission reduction. Data obtained from satellite images will optimize sustainable natural resource management."
+      ]
+    },
+    "objectifs": {
+      "fr": [
+        "Acquérir et traiter des images satellites Skysat pour le suivi du bilan carbone des plantations agroforestières.",
+        "Mettre en place un mécanisme MRV transparent pour mesurer l'impact du modèle agroforestier sur les émissions de gaz à effet de serre.",
+        "Assurer une analyse précise des données obtenues pour soutenir la gouvernance durable."
+      ],
+      "en": [
+        "Acquire and process Skysat satellite images for monitoring carbon balance of agroforestry plantations.",
+        "Establish a transparent MRV mechanism to measure the impact of the agroforestry model on greenhouse gas emissions.",
+        "Ensure accurate analysis of obtained data to support sustainable governance."
+      ]
+    },
+    "resultats": {
+      "fr": [
+        "Images satellites sélectionnées et validées.",
+        "Bilan carbone des plantations agroforestières quantifié.",
+        "Mécanisme MRV mis en place et fonctionnel pour un suivi précis des émissions.",
+        "Données de couverture des zones d'intérêt transmises aux parties prenantes."
+      ],
+      "en": [
+        "Satellite images selected and validated.",
+        "Carbon balance of agroforestry plantations quantified.",
+        "MRV mechanism established and functional for precise emission monitoring.",
+        "Coverage data from areas of interest transmitted to stakeholders."
+      ]
+    },
+    "url": "portfolio.php?slug=acquisition-images-satellitaires-mrv",
+    "album": [
+      {
+        "titre": "Photo 1",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Vue générale de la réserve de Mabi-Yaya"
+      },
+      {
+        "titre": "Photo 2",
+        "url": "cache/teams_dg1-1-800.webp",
+        "description": "Producteurs de caoutchouc au travail"
+      }
+    ]
+  }
+]
