@@ -254,97 +254,8 @@ $seconds_remaining = $is_expired ? 0 : $time_remaining->s;
 </head>
 
 <body class="bg-[#f6ffde] text-black font-roboto">
-  <!-- Preloader -->
-  <div id="preloader" class="fixed inset-0 bg-[#f6ffde] z-50 flex items-center justify-center">
-    <div class="animate-triangle w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32">
-      <img src="images/triangle-svgrepo-com.svg" loading="lazy" alt="" data-alt-i18n="loading" class="w-full h-full object-contain triangle-img">
-    </div>
-  </div>
-
-  <!-- Header -->
-  <header class="bg-white shadow-md sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 py-2 sm:py-3 flex items-center justify-between">
-      <img 
-        src="cache/logo-198x66-800.webp" 
-        srcset="
-          cache/logo-198x66-480.webp 480w, 
-          cache/logo-198x66-800.webp 800w, 
-          cache/logo-198x66-1200.webp 1200w
-        "
-        sizes="(max-width: 600px) 480px, (max-width: 1000px) 800px, 1200px"
-        loading="lazy" 
-        alt="" 
-        data-alt-i18n="agriforland_logo"
-        class="h-6 sm:h-8 md:h-10 lg:h-12"
-      >
-      
-      <!-- Menu Burger pour mobile -->
-      <button id="menu-toggle" class="lg:hidden text-gray-700 focus:outline-none p-2" aria-label="" data-aria-i18n="open_menu">
-        <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M4 6h16M4 12h16M4 18h16"/>
-        </svg>
-      </button>
-      
-      <!-- Boutons (desktop) -->
-      <div class="hidden lg:flex gap-2 xl:gap-3 items-center ml-auto">
-        <div class="relative inline-block text-left">
-          <select id="language-selector" class="block appearance-none bg-white border border-gray-300 hover:border-gray-500 px-2 py-1 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline text-sm">
-            <option value="fr" data-icon="images/fr.webp">Français</option>
-            <option value="en" data-icon="images/en.webp">English</option>
-          </select>
-          <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2">
-            <img id="language-icon" src="images/fr.webp" loading="lazy" alt="" data-alt-i18n="language" class="h-4 w-4">
-          </div>
-        </div>
-        <a href="recrutement.html" class="bg-[#759916] text-white px-3 xl:px-4 py-2 rounded-md hover:text-black hover:bg-[#ade126] transition text-sm whitespace-nowrap" data-i18n="join_us">
-          Nous Rejoindre
-        </a>
-        <a href="contact.html" class="border border-gray-500 px-3 xl:px-4 py-2 rounded-md hover:text-black hover:bg-[#f6ffde] transition text-sm whitespace-nowrap" data-i18n="contact_us">
-          Nous Contacter
-        </a>
-      </div>
-    </div>
-    
-    <!-- Navigation Desktop -->
-    <div class="border-t border-gray-100 bg-[#f6ffde] hidden lg:block">
-      <nav class="max-w-7xl mx-auto px-4 lg:px-6 py-3 flex justify-center gap-4 lg:gap-6 xl:gap-8 text-base lg:text-lg">
-        <a href="index.php" class="nav-link hover:text-[#a9cf46] transition-colors" data-i18n="home">Accueil</a>
-        <a href="about.php" class="nav-link hover:text-[#a9cf46] transition-colors" data-i18n="about">À Propos</a>
-        <a href="poles.html" class="nav-link hover:text-[#a9cf46] transition-colors" data-i18n="poles">Nos Pôles</a>
-        <a href="projets.html" class="nav-link hover:text-[#a9cf46] transition-colors" data-i18n="projects">Nos Projets</a>
-        <a href="blog.php" class="nav-link hover:text-[#a9cf46] transition-colors" data-i18n="blog">Blog</a>
-        <a href="portfolios.php" class="nav-link hover:text-[#a9cf46] transition-colors" data-i18n="portfolios">Portfolios</a>
-        <a href="hackathons.php" class="nav-link text-[#a9cf46] border-b-2 border-[#a9cf46] font-semibold" data-i18n="hackathons">Hackathons</a>
-      </nav>
-    </div>
-    
-    <!-- Menu Mobile -->
-    <div id="mobile-menu" class="lg:hidden hidden bg-[#f6ffde] px-4 pb-4">
-      <nav class="flex flex-col gap-1 text-base">
-        <a href="index.php" class="nav-link hover:text-[#a9cf46] transition py-3 border-b border-gray-200" data-i18n="home">Accueil</a>
-        <a href="about.php" class="nav-link hover:text-[#a9cf46] transition py-3 border-b border-gray-200" data-i18n="about">À Propos</a>
-        <a href="poles.html" class="nav-link hover:text-[#a9cf46] transition py-3 border-b border-gray-200" data-i18n="poles">Nos Pôles</a>
-        <a href="projets.html" class="nav-link hover:text-[#a9cf46] transition py-3 border-b border-gray-200" data-i18n="projects">Nos Projets</a>
-        <a href="blog.php" class="nav-link hover:text-[#a9cf46] transition py-3 border-b border-gray-200" data-i18n="blog">Blog</a>
-        <a href="portfolios.php" class="nav-link hover:text-[#a9cf46] transition py-3 border-b border-gray-200" data-i18n="portfolios">Portfolios</a>
-        <a href="hackathons.php" class="nav-link text-[#a9cf46] font-semibold py-3" data-i18n="hackathons">Hackathons</a>
-      </nav>
-      
-      <div class="mt-4 flex flex-col gap-3">
-        <div class="relative">
-          <select id="language-selector-mobile" class="block appearance-none bg-white border border-gray-300 hover:border-gray-500 px-3 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline w-full text-sm">
-            <option value="fr" data-icon="images/fr.webp">Français</option>
-            <option value="en" data-icon="images/en.webp">English</option>
-          </select>
-          <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2">
-            <img id="language-icon-mobile" src="images/fr.webp" loading="lazy" alt="" data-alt-i18n="language" class="h-4 w-4">
-          </div>
-        </div>
-        <a href="recrutement.html" class="bg-[#759916] text-white px-4 py-3 rounded-md text-center text-sm hover:bg-[#ade126] transition font-medium" data-i18n="join_us">Nous Rejoindre</a>
-        <a href="contact.html" class="border border-gray-500 px-4 py-3 rounded-md text-center text-sm hover:bg-white transition font-medium" data-i18n="contact_us">Nous Contacter</a>
-      </div>
-    </div>
-  </header>
+    <!-- En tête -->
+         <?php require __DIR__ . "/includes/header.php"; ?>
 
   <!-- Hero du Hackathon -->
   <section class="hero-section relative">
@@ -663,7 +574,8 @@ $seconds_remaining = $is_expired ? 0 : $time_remaining->s;
   </section>
 
   <!-- Footer -->
-    <?php include __DIR__ . '/footer.php'; ?>
+     
+   <?php require __DIR__ . "/includes/footer.php"; ?>
 
 
   <!-- Tooltip element -->

@@ -251,7 +251,8 @@
     </div>
   </section>
 
-    <?php include __DIR__ . '/footer.php'; ?>
+    <!-- Footer -->
+    <?php require __DIR__ . "/includes/footer.php"; ?>
 
 
   <!-- Scripts -->

@@ -756,7 +756,8 @@
     </div>
   </div>
 
-    <?php include __DIR__ . '/footer.php'; ?>
+    <!-- Footer -->
+    <?php require __DIR__ . "/includes/footer.php"; ?>
 
   <script>
     // Données du ranch (chargées depuis PHP)

@@ -185,75 +185,8 @@ if (!$article) {
 </head>
 
 <body class="bg-lightbg text-gray-800 font-roboto">
-  <!-- Preloader optimisé -->
-  <div id="preloader" class="fixed inset-0 bg-lightbg z-50 flex items-center justify-center preloader-optimized">
-    <div class="animate-pulse w-24 h-24 sm:w-32 sm:h-32">
-      <img src="images/triangle-svgrepo-com.svg" alt="Chargement..." loading="lazy" class="w-full h-full object-contain triangle-img">
-    </div>
-  </div>
-
-  <!-- Header amélioré -->
-  <header class="bg-white shadow-md sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
-      <img 
-        src="cache/logo-198x66-800.webp" 
-        srcset="
-          cache/logo-198x66-480.webp 480w, 
-          cache/logo-198x66-800.webp 800w, 
-          cache/logo-198x66-1200.webp 1200w
-        "
-        sizes="(max-width: 600px) 480px, (max-width: 1000px) 800px, 1200px"
-        loading="lazy" 
-        alt="Logo Agriforland" 
-        class="h-8 sm:h-10"
-      />
-      <!-- Menu Burger amélioré pour mobile -->
-      <button id="menu-toggle" class="md:hidden text-gray-700 focus:outline-none touch-target focus-visible p-2" aria-label="Ouvrir le menu" aria-expanded="false">
-        <svg class="w-6 h-6 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-          <path class="menu-line-1" d="M4 6h16"/>
-          <path class="menu-line-2" d="M4 12h16"/>
-          <path class="menu-line-3" d="M4 18h16"/>
-        </svg>
-      </button>
-      <!-- Boutons desktop améliorés -->
-      <div class="hidden md:flex gap-3 items-center ml-auto">
-        <a href="recrutement.html" class="bg-[#759916] text-white px-4 py-2 rounded-lg hover:bg-[#ade126] transition-colors text-sm font-semibold focus-visible touch-target">
-          Nous Rejoindre
-        </a>
-        <a href="contact.html" class="border border-gray-500 px-4 py-2 rounded-lg hover:bg-[#f6ffde] transition-colors text-sm focus-visible touch-target">
-          Nous Contacter
-        </a>
-      </div>
-    </div>
-
-    <!-- Navigation Desktop -->
-    <div class="border-t border-gray-100 bg-[#f6ffde] hidden md:block">
-      <nav class="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex justify-center gap-6 text-lg">
-        <a href="index.php" class="nav-link hover:text-[#a9cf46] transition-colors focus-visible touch-target">Accueil</a>
-        <a href="about.php" class="nav-link hover:text-[#a9cf46] transition-colors focus-visible touch-target">À Propos</a>
-        <a href="poles.html" class="nav-link hover:text-[#a9cf46] transition-colors focus-visible touch-target">Nos Pôles</a>
-        <a href="projets.html" class="nav-link hover:text-[#a9cf46] transition-colors focus-visible touch-target">Nos Projets</a>
-        <a href="blog.php" class="nav-link hover:text-[#a9cf46] transition-colors focus-visible touch-target">Blog</a>
-        <a href="portfolios.php" class="nav-link hover:text-[#a9cf46] transition-colors focus-visible touch-target">Portfolios</a>
-      </nav>
-    </div>
-
-    <!-- Menu Mobile amélioré -->
-    <div id="mobile-menu" class="md:hidden hidden bg-[#f6ffde] mobile-padding mobile-menu-enter">
-      <nav class="flex flex-col mobile-gap text-base">
-        <a href="index.php" class="nav-link hover:text-[#a9cf46] transition touch-target py-3 focus-visible">Accueil</a>
-        <a href="about.php" class="nav-link hover:text-[#a9cf46] transition touch-target py-3 focus-visible">À Propos</a>
-        <a href="poles.html" class="nav-link hover:text-[#a9cf46] transition touch-target py-3 focus-visible">Nos Pôles</a>
-        <a href="projets.html" class="nav-link hover:text-[#a9cf46] transition touch-target py-3 focus-visible">Nos Projets</a>
-        <a href="blog.php" class="nav-link hover:text-[#a9cf46] transition touch-target py-3 focus-visible">Blog</a>
-        <a href="portfolios.php" class="nav-link hover:text-[#a9cf46] transition-colors touch-target py-3 focus-visible">Portfolios</a>
-      </nav>
-      <div class="mt-6 flex flex-col gap-3">
-        <a href="recrutement.html" class="bg-[#759916] text-white px-4 py-3 rounded-lg text-center font-semibold hover:bg-[#ade126] transition-colors touch-target focus-visible">Nous Rejoindre</a>
-        <a href="contact.html" class="border border-gray-500 px-4 py-3 rounded-lg text-center hover:bg-white transition-colors touch-target focus-visible">Nous Contacter</a>
-      </div>
-    </div>
-  </header>
+    <!-- En tête -->
+         <?php require __DIR__ . "/includes/header.php"; ?>
 
   <!-- Hero amélioré -->
   <section class="relative">
@@ -346,8 +279,9 @@ if (!$article) {
     </div>
   </section>
 
-  <!-- Footer amélioré -->
-    <?php include __DIR__ . '/footer.php'; ?>
+     <!-- Footer -->
+     
+     <?php require __DIR__ . "/includes/footer.php"; ?>
 
 
   <!-- Scripts optimisés -->
